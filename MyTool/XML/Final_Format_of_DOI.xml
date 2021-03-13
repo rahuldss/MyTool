@@ -1,0 +1,138 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<doi_batch version="4.1.0" xmlns="http://www.crossref.org/schema/4.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.crossref.org/schema/4.1.0 crossref4.1.0.xsd">
+  <head>
+    <doi_batch_id>123456</doi_batch_id>
+    <timestamp>20011003110604</timestamp>
+    <depositor>
+      <name>Jaypee Brothers Medical Publishers (P) ltd</name>
+      <email_address>jaypee@jaypeebrothers.com</email_address>
+    </depositor>
+    <registrant>Jaypee Brothers Medical Publishers (P) ltd</registrant>
+  </head>
+  
+  <body>
+    <book book_type = "edited_book">
+      <book_metadata language = "en">
+
+
+        <contributors>
+          <person_name sequence = "first" contributor_role = "editor">
+            <given_name>v.</given_name>
+            <surname>KAPUR</surname>
+          </person_name>
+          <person_name sequence = "additional" contributor_role = "editor">
+            <given_name>R.K.</given_name>
+            <surname>SURI</surname>
+          </person_name>
+        </contributors>
+
+
+        <titles>
+          <title>BASIC HUMAN GENETICS</title>
+        </titles>
+        <volume>1</volume>
+        <edition_number>2</edition_number>
+        <publication_date media_type = "print">
+          <month>10</month>
+          <day>5</day>
+          <year>2005</year>
+        </publication_date>
+        <isbn>
+          0-19-262706-6
+          9788171792207
+          8-17-179220-0
+        </isbn>
+        <publisher>
+          <publisher_name>Jaypee Brothers Medical Publishers (P) ltd</publisher_name>
+          <publisher_place>New Delhi</publisher_place>
+        </publisher>
+        <doi_data>
+          <doi>10.9999/0-19-262706-6</doi>
+          <resource>http://www.oup.co.uk/isbn/0-19-262706-6</resource>
+        </doi_data>
+      </book_metadata>
+      
+      <content_item component_type = "chapter" level_sequence_number = "1" publication_type = "full_text">
+        <titles>
+          <title>Introduction</title>
+        </titles>
+        <doi_data>
+          <doi>10.9999/0-19-262706-6.Introduction</doi>
+          <resource>http://www.oup.co.uk/isbn/0-19-262706-6/Introduction</resource>
+        </doi_data>
+      </content_item>
+
+      <content_item component_type = "chapter" level_sequence_number = "2" publication_type = "full_text">
+        <titles>
+          <title>Chromosomes</title>
+        </titles>
+        <doi_data>
+          <doi>10.9999/0-19-262706-6.Chromosomes</doi>
+          <resource>http://www.oup.co.uk/isbn/0-19-262706-6/Chromosomes</resource>
+        </doi_data>
+      </content_item>
+
+      <content_item component_type = "chapter" level_sequence_number = "3" publication_type = "full_text">
+        <titles>
+          <title>Cell Division</title>
+        </titles>
+        <doi_data>
+          <doi>10.9999/0-19-262706-6.Cell Division</doi>
+          <resource>http://www.oup.co.uk/isbn/0-19-262706-6/Cell Division</resource>
+        </doi_data>
+      </content_item>
+
+      <content_item component_type = "chapter" level_sequence_number = "4" publication_type = "full_text">
+        <titles>
+          <title>Chromosomal Abnormalities</title>
+        </titles>
+        <doi_data>
+          <doi>10.9999/0-19-262706-6.Chromosomal Abnormalities</doi>
+          <resource>http://www.oup.co.uk/isbn/0-19-262706-6/Chromosomal Abnormalities</resource>
+        </doi_data>
+      </content_item>
+
+
+      <content_item component_type = "chapter" level_sequence_number = "5" publication_type = "full_text">
+        <titles>
+          <title>Genes</title>
+        </titles>
+        <doi_data>
+          <doi>10.9999/0-19-262706-6.Genes</doi>
+          <resource>http://www.oup.co.uk/isbn/0-19-262706-6/Genes</resource>
+        </doi_data>
+      </content_item>
+
+      <content_item component_type = "chapter" level_sequence_number = "6" publication_type = "full_text">
+        <titles>
+          <title>Inheritance</title>
+        </titles>
+        <doi_data>
+          <doi>10.9999/0-19-262706-6.Inheritance</doi>
+          <resource>http://www.oup.co.uk/isbn/0-19-262706-6/Inheritance</resource>
+        </doi_data>
+      </content_item>
+
+
+      <content_item component_type = "chapter" level_sequence_number = "7" publication_type = "full_text">
+        <titles>
+          <title>Population Genetics</title>
+        </titles>
+        <doi_data>
+          <doi>10.9999/0-19-262706-6.Population Genetics</doi>
+          <resource>http://www.oup.co.uk/isbn/0-19-262706-6/Population Genetics</resource>
+        </doi_data>
+      </content_item>
+
+      <content_item component_type = "chapter" level_sequence_number = "8" publication_type = "full_text">
+        <titles>
+          <title>Prevention and Treatment of Genetic Diseases</title>
+        </titles>
+        <doi_data>
+          <doi>10.9999/0-19-262706-6.Prevention and Treatment of Genetic Diseases</doi>
+          <resource>http://www.oup.co.uk/isbn/0-19-262706-6/Prevention and Treatment of Genetic Diseases</resource>
+        </doi_data>
+      </content_item>
+    </book>
+  </body>
+</doi_batch>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MyTool">
+</Property><Property Name="Solution File" Value="D:\Narender\Projects\VB.NET\2008\MyTool\MyTool.sln">
+</Property><Property Name="User Options File" Value="D:\Narender\Projects\VB.NET\2008\MyTool\MyTool.suo">
+</Property><Property Name="Date" Value="Tuesday, September 30, 2014">
+</Property><Property Name="Time" Value="16:33 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MyTool.sln" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MyTool.suo" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool.suo">
+</Event><Event ErrorLevel="4" Project="MyTool" Source="http://go.microsoft.com/fwlink/?LinkId=159919" Description="Warning: this project requires Crystal Reports, which is no longer included with Visual Studio. Please click here for more information.">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\MyTool.vbproj" Description="Project file successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\MyTool.vbproj">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\MyTool.vbproj.user" Description="Project user file successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\MyTool.vbproj.user">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\DAL\DALAllDBTypesSQLTable.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\DAL\DALAllDBTypesSQLTable.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\DAL\DALAllDBTypesSQLTable_NEW.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\DAL\DALAllDBTypesSQLTable_NEW.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\DAL\DALTable_1.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\DAL\DALTable_1.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\DAL\DALTable_2.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\DAL\DALTable_2.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\DAL\DALTBL1.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\DAL\DALTBL1.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmBarcode.Designer.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmBarcode.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmBarcode.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmBarcode.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmBookChapters.Designer.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmBookChapters.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmBookChapters.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmBookChapters.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmConnStr.designer.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmConnStr.designer.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmConnStr.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmConnStr.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\FrmCreateList.designer.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\FrmCreateList.designer.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\FrmCreateList.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\FrmCreateList.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\FrmCrystalReport.Designer.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\FrmCrystalReport.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\FrmCrystalReport.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\FrmCrystalReport.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmGenerateInserts.Designer.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmGenerateInserts.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmGenerateInserts.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmGenerateInserts.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmImportExport.Designer.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmImportExport.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmImportExport.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmImportExport.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmImportExportSQL.Designer.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmImportExportSQL.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmImportExportSQL.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmImportExportSQL.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmPropertCreater.designer.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmPropertCreater.designer.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmPropertCreater.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmPropertCreater.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmRenameFiles.Designer.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmRenameFiles.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmRenameFiles.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmRenameFiles.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmSelectServer.designer.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmSelectServer.designer.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmSelectServer.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmSelectServer.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\IDAutomation_FontEncoder_Dotnet.VB" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\IDAutomation_FontEncoder_Dotnet.VB">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\LIB\LIBAllDBTypesSQLTable.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\LIB\LIBAllDBTypesSQLTable.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\LIB\LIBAllDBTypesSQLTable_NEW.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\LIB\LIBAllDBTypesSQLTable_NEW.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\LIB\LIBTable_1.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\LIB\LIBTable_1.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\LIB\LIBTable_2.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\LIB\LIBTable_2.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\LIB\LIBTBL1.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\LIB\LIBTBL1.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\MyCLS.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\MyCLS.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\PdfManipulation.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\PdfManipulation.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\MDI.Designer.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\MDI.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\MDI.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\MDI.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\My Project\AssemblyInfo.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\My Project\Application.Designer.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\My Project\Resources.Designer.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\My Project\Settings.Designer.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\_frmTest.Designer.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\_frmTest.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\_frmTest.vb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\_frmTest.vb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\bin\Debug\Err.dat" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\bin\Debug\Err.dat">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\bin\Debug\MyTool.vshost.exe.manifest" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\bin\Debug\MyTool.vshost.exe.manifest">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\My Project\Application.myapp" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\My Project\Settings.settings" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\bin\Debug\Interop.Acrobat.dll" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\bin\Debug\Interop.Acrobat.dll">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\bin\Debug\Microsoft.Office.Interop.Word.dll" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\bin\Debug\Microsoft.Office.Interop.Word.dll">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\bin\Debug\MyTool.exe" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\bin\Debug\MyTool.exe">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\bin\Debug\MyTool.pdb" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\bin\Debug\MyTool.pdb">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\bin\Debug\MyTool.vshost.exe" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\bin\Debug\MyTool.vshost.exe">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\bin\Debug\MyTool.xml" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\bin\Debug\MyTool.xml">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\bin\Debug\PDFRead.txt" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\bin\Debug\PDFRead.txt">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\Database1.sdf" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\Database1.sdf">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\icon2.ico" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\icon2.ico">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\XML\Final_Format_of_DOI.xml" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\XML\Final_Format_of_DOI.xml">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\XML\FormatStyle.xsl" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\XML\FormatStyle.xsl">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\XML\ResultXML.xml" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\XML\ResultXML.xml">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\XML\XMLDataFromSQL.xml" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\XML\XMLDataFromSQL.xml">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmBarcode.resx" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmBarcode.resx">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmBookChapters.resx" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmBookChapters.resx">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmConnStr.resx" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmConnStr.resx">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\FrmCreateList.resx" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\FrmCreateList.resx">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\FrmCrystalReport.resx" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\FrmCrystalReport.resx">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmGenerateInserts.resx" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmGenerateInserts.resx">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmImportExport.resx" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmImportExport.resx">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmImportExportSQL.resx" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmImportExportSQL.resx">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmPropertCreater.resx" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmPropertCreater.resx">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmRenameFiles.resx" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmRenameFiles.resx">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\frmSelectServer.resx" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\frmSelectServer.resx">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\MDI.resx" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\MDI.resx">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\My Project\Resources.resx" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\_frmTest.resx" Description="File successfully backed up as D:\Narender\Projects\VB.NET\2008\MyTool\Backup\MyTool\_frmTest.resx">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\MyTool.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MyTool" Source="MyTool\MyTool.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MyTool.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MyTool.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\MyTool.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="MyTool" Source="MyTool\MyTool.vbproj" Description="References to Microsoft.VisualBasic.PowerPacks.Vs were updated to Microsoft.VisualBasic.PowerPacks.Vs 10.0.">
+</Event></UpgradeLog>

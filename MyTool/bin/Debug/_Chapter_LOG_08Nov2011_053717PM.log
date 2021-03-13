@@ -1,0 +1,8 @@
+--NOT FOUND : D:\Narender\Projects\ASP.NET\2005\EBooks\temp\Books\9788180612404\Chapter wise Pdf\0\Chapter-47_Favit—A New Method to Remove Dropped Nuclei.pdf
+Select SNO,substring(fullName,1,20) from Table_Chapter WHERE ISBN='9788180612404' AND substring(fullName,1,20)='Chapter-47_Favit—A N'
+--NOT FOUND : D:\Narender\Projects\ASP.NET\2005\EBooks\temp\Books\9788180614156\Shortnotes\Chapter wise Pdf\0\Chapter-30_MONSON’S CURVE.pdf
+Select SNO,substring(fullName,1,20) from Table_Chapter WHERE ISBN='9788180614156' AND substring(fullName,1,20)='Chapter-30_MONSON’S '
+--NOT FOUND : D:\Narender\Projects\ASP.NET\2005\EBooks\temp\Books\9788180614156\Shortnotes\Chapter wise Pdf\0\Chapter-57_HANAU’S QUINT.pdf
+Select SNO,substring(fullName,1,20) from Table_Chapter WHERE ISBN='9788180614156' AND substring(fullName,1,20)='Chapter-57_HANAU’S Q'
+--NOT FOUND : D:\Narender\Projects\ASP.NET\2005\EBooks\temp\Books\9788180614156\Shortnotes\Chapter wise Pdf\0\Chapter-65_CAMPER’S LINE.pdf
+Select SNO,substring(fullName,1,20) from Table_Chapter WHERE ISBN='9788180614156' AND substring(fullName,1,20)='Chapter-65_CAMPER’S '

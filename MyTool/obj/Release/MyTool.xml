@@ -1,0 +1,471 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MyTool
+</name>
+</assembly>
+<members>
+<member name="M:MyTool.NDS.DAL.DALTable_1.GetTable_1Details">
+	<summary>
+ Accepts=Nothing, Return=Packet, Result=Packet.MessageId, Return Values=Packet.MessageResultset
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.NDS.DAL.DALTable_1.GetTable_1Details(MyTool.MyCLS.TransportationPacket)">
+	<summary>
+ Accepts=TransportationPacket, Return=Packet, Result=Packet.MessageId, Return Values=Packet.MessageResultset
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.NDS.DAL.DALTable_1.InsertTable_1(MyTool.MyCLS.TransportationPacket)">
+	<summary>
+ Accepts=Packet, Return=Packet, Result=Packet.MessageId, Return Values=Packet.MessageResultset
+ </summary>
+	<param name="Packet"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.NDS.DAL.DALTable_2.GetTable_2Details">
+	<summary>
+ Accepts=Nothing, Return=Packet, Result=Packet.MessageId, Return Values=Packet.MessageResultset
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.NDS.DAL.DALTable_2.GetTable_2Details(MyTool.MyCLS.TransportationPacket)">
+	<summary>
+ Accepts=TransportationPacket, Return=Packet, Result=Packet.MessageId, Return Values=Packet.MessageResultset
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.NDS.DAL.DALTable_2.InsertTable_2(MyTool.MyCLS.TransportationPacket)">
+	<summary>
+ Accepts=Packet, Return=Packet, Result=Packet.MessageId, Return Values=Packet.MessageResultset
+ </summary>
+	<param name="Packet"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.NDS.DAL.DALTBL1.GetTBL1Details">
+	<summary>
+ Accepts=Nothing, Return=Packet, Result=Packet.MessageId, Return Values=Packet.MessageResultset
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.NDS.DAL.DALTBL1.GetTBL1Details(MyTool.MyCLS.TransportationPacket)">
+	<summary>
+ Accepts=TransportationPacket, Return=Packet, Result=Packet.MessageId, Return Values=Packet.MessageResultset
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.NDS.DAL.DALTBL1.InsertTBL1(MyTool.MyCLS.TransportationPacket)">
+	<summary>
+ Accepts=Packet, Return=Packet, Result=Packet.MessageId, Return Values=Packet.MessageResultset
+ </summary>
+	<param name="Packet"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.NDS.DAL.DALAllDBTypesSQLTable_NEW.GetAllDBTypesSQLTable_NEWDetails">
+	<summary>
+ Accepts=Nothing, Return=Packet, Result=Packet.MessageId, Return Values=Packet.MessageResultset
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.NDS.DAL.DALAllDBTypesSQLTable_NEW.GetAllDBTypesSQLTable_NEWDetails(MyTool.MyCLS.TransportationPacket)">
+	<summary>
+ Accepts=TransportationPacket, Return=Packet, Result=Packet.MessageId, Return Values=Packet.MessageResultset
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.NDS.DAL.DALAllDBTypesSQLTable_NEW.InsertAllDBTypesSQLTable_NEW(MyTool.MyCLS.TransportationPacket)">
+	<summary>
+ Accepts=Packet, Return=Packet, Result=Packet.MessageId, Return Values=Packet.MessageResultset
+ </summary>
+	<param name="Packet"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.NDS.DAL.DALAllDBTypesSQLTable.GetAllDBTypesSQLTableDetails">
+	<summary>
+ Accepts=Nothing, Return=Packet, Result=Packet.MessageId, Return Values=Packet.MessageResultset
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.NDS.DAL.DALAllDBTypesSQLTable.GetAllDBTypesSQLTableDetails(MyTool.MyCLS.TransportationPacket)">
+	<summary>
+ Accepts=TransportationPacket, Return=Packet, Result=Packet.MessageId, Return Values=Packet.MessageResultset
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.NDS.DAL.DALAllDBTypesSQLTable.InsertAllDBTypesSQLTable(MyTool.MyCLS.TransportationPacket)">
+	<summary>
+ Accepts=Packet, Return=Packet, Result=Packet.MessageId, Return Values=Packet.MessageResultset
+ </summary>
+	<param name="Packet"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.frmPropertCreater.WritePropertyInVB(System.Collections.Generic.List{MyTool.MyCLS.clsTables})">
+	<summary>
+ CREATE PROPERTIES LIBRARY IN VB
+ </summary>
+	<param name="dbInfo"></param>
+	<remarks></remarks>
+</member><member name="M:MyTool.frmPropertCreater.WriteDALInVB(System.Collections.Generic.List{MyTool.MyCLS.clsTables})">
+	<summary>
+ CREATE DATA ACCESS LAYER IN VB
+ </summary>
+	<param name="dbInfo"></param>
+	<remarks>CREATES SELECT, SELECT BY VALUE AND INSERT FUNCTIONs</remarks>
+</member><member name="M:MyTool.frmPropertCreater.WriteDALInVBSqlClient(System.Collections.Generic.List{MyTool.MyCLS.clsTables})">
+	<summary>
+ CREATE DATA ACCESS LAYER IN VB WITH TP AND SQL CLIENT
+ </summary>
+	<param name="dbInfo"></param>
+	<remarks>CREATES SELECT, SELECT BY VALUE AND INSERT FUNCTIONs</remarks>
+</member><member name="M:MyTool.frmPropertCreater.WriteDALInVB4Access(System.Collections.Generic.List{MyTool.MyCLS.clsTables})">
+	<summary>
+ CREATE DATA ACCESS LAYER IN VB
+ </summary>
+	<param name="dbInfo"></param>
+	<remarks>CREATES SELECT, SELECT BY VALUE AND INSERT FUNCTIONs</remarks>
+</member><member name="M:MyTool.frmPropertCreater.WritePropertyInCS(System.Collections.Generic.List{MyTool.MyCLS.clsTables})">
+	<summary>
+ CREATE PROPERTIES LIBRARY IN CS
+ </summary>
+	<param name="dbInfo"></param>
+	<remarks></remarks>
+</member><member name="M:MyTool.frmPropertCreater.WriteDALInCS(System.Collections.Generic.List{MyTool.MyCLS.clsTables})">
+	<summary>
+ CREATE DATA ACCESS LAYER IN CS
+ </summary>
+	<param name="dbInfo"></param>
+	<remarks>CREATES SELECT, SELECT BY VALUE AND INSERT FUNCTIONs</remarks>
+</member><member name="M:MyTool.frmPropertCreater.WriteDALInCSSqlClient(System.Collections.Generic.List{MyTool.MyCLS.clsTables})">
+	<summary>
+ CREATE DATA ACCESS LAYER IN VB WITH TP AND SQL CLIENT
+ </summary>
+	<param name="dbInfo"></param>
+	<remarks>CREATES SELECT, SELECT BY VALUE AND INSERT FUNCTIONs</remarks>
+</member><member name="M:MyTool.frmPropertCreater.WriteDALInCS4Access(System.Collections.Generic.List{MyTool.MyCLS.clsTables})">
+	<summary>
+ CREATE DATA ACCESS LAYER IN VB
+ </summary>
+	<param name="dbInfo"></param>
+	<remarks>CREATES SELECT, SELECT BY VALUE AND INSERT FUNCTIONs</remarks>
+</member><member name="M:MyTool.frmPropertCreater.WritePropertyInVB6(System.Collections.Generic.List{MyTool.MyCLS.clsTables})">
+	<summary>
+ CREATE PROPERTIES LIBRARY IN VB6.0
+ </summary>
+	<param name="dbInfo"></param>
+	<remarks></remarks>
+</member><member name="M:MyTool.frmPropertCreater.WriteDALInVB6(System.Collections.Generic.List{MyTool.MyCLS.clsTables})">
+	<summary>
+ CREATE DATA ACCESS LAYER IN VB6
+ </summary>
+	<param name="dbInfo"></param>
+	<remarks>CREATES SELECT, SELECT BY VALUE AND INSERT FUNCTIONs</remarks>
+</member><member name="M:MyTool.frmPropertCreater.WriteStoredProc(System.Collections.Generic.List{MyTool.MyCLS.clsTables})">
+	<summary>
+ CREATE STORED PROCEDURE
+ </summary>
+	<param name="dbInfo"></param>
+	<remarks>CREATES STORED PROCEDUREs</remarks>
+</member><member name="M:MyTool.MyCLS.clsCOMMON.ConOpenFromXMLFile">
+	<summary>
+ This is the Internal Function to be invoked from the DBConnection
+ The purpose of the function 'OpenDatabase' is to open the XML File and have all the values in the class
+ object through Serialization. This is static function of the class and can be invoked without any instance.
+ </summary>
+	<returns></returns>
+</member><member name="M:MyTool.MyCLS.clsCOMMON.ConOpenFromXMLFile(System.Boolean)">
+	<summary>
+ This is the Internal Function to be invoked from the DBConnection
+ The purpose of the function 'OpenDatabase' is to open the XML File and have all the values in the class
+ object through Serialization. This is static function of the class and can be invoked without any instance.
+ </summary>
+	<returns></returns>
+</member><member name="M:MyTool.MyCLS.clsExecuteStoredProcOleDb.OpenDatabase">
+	<summary>
+ This function Opens Connection to be used within this class
+ And Closes after operation is completed
+ </summary>
+	<returns></returns>
+</member><member name="M:MyTool.MyCLS.clsExecuteStoredProcOleDb.ExecuteSPNonQuery(System.String,System.Collections.Generic.List{System.Data.OleDb.OleDbParameter})">
+	<summary>
+ This function shall Execute the Stored Procedure on the Database, this is a replica of using DOTNET ExecuteNonQuery
+ This shall reduce lot of Development time in invoking the database properties.
+ Input Parameters: String SPName -&gt; Name of the Stored Procedures
+ ParameterList -&gt; List of Type SQLParameter
+ The function is responsible for database connectivity and shall open and close the connection on it's own.
+ </summary>
+	<param name="SPName"></param>
+	<param name="ParameterList"></param>
+	<returns></returns>
+</member><member name="M:MyTool.MyCLS.clsExecuteStoredProcOleDb.ExecuteSPDataSet(System.String,System.Collections.Generic.List{System.Data.OleDb.OleDbParameter})">
+	<summary>
+ This function shall Execute the Stored Procedure on the Database, this is a replica of using DOTNET ExecuteReader 
+ or the method of filling up the DataSet.
+ This shall reduce lot of Development time in invoking the database properties.
+ Input Parameters: String SPName -&gt; Name of the Stored Procedures
+ ParameterList -&gt; List of Type SQLParameter
+ The function is responsible for database connectivity and shall open and close the connection on it's own.
+ </summary>
+	<param name="SPName"></param>
+	<param name="ParameterList"></param>
+	<returns></returns>
+</member><member name="M:MyTool.MyCLS.clsExecuteStoredProcOleDb.ExecuteSPNonQueryOutPut(System.String,System.Collections.Generic.List{System.Data.OleDb.OleDbParameter},System.Collections.Generic.List{System.Data.OleDb.OleDbParameter},System.Int16@)">
+	<summary> 
+ This function shall Execute the Stored Procedure on the Database, this is a replica of using DOTNET ExecuteNonQuery 
+ This shall reduce lot of Development time in invoking the database properties. 
+ Input Parameters: String SPName -&gt; Name of the Stored Procedures 
+ ParameterList -&gt; List of Type SQLParameter 
+ The function is responsible for database connectivity and shall open and close the connection on it's own. 
+ </summary>
+	<param name="SPName"></param>
+	<param name="ParameterList"></param>
+	<returns></returns>
+</member><member name="M:MyTool.MyCLS.clsExecuteStoredProcSql.OpenDatabase">
+	<summary>
+ This function Opens Connection to be used within this class
+ And Closes after operation is completed
+ </summary>
+	<returns></returns>
+</member><member name="M:MyTool.MyCLS.clsExecuteStoredProcSql.ExecuteSPNonQuery(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+	<summary>
+ This function shall Execute the Stored Procedure on the Database, this is a replica of using DOTNET ExecuteNonQuery
+ This shall reduce lot of Development time in invoking the database properties.
+ Input Parameters: String SPName -&gt; Name of the Stored Procedures
+ ParameterList -&gt; List of Type SQLParameter
+ The function is responsible for database connectivity and shall open and close the connection on it's own.
+ </summary>
+	<param name="SPName"></param>
+	<param name="ParameterList"></param>
+	<returns></returns>
+</member><member name="M:MyTool.MyCLS.clsExecuteStoredProcSql.ExecuteSPDataSet(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+	<summary>
+ This function shall Execute the Stored Procedure on the Database, this is a replica of using DOTNET ExecuteReader 
+ or the method of filling up the DataSet.
+ This shall reduce lot of Development time in invoking the database properties.
+ Input Parameters: String SPName -&gt; Name of the Stored Procedures
+ ParameterList -&gt; List of Type SQLParameter
+ The function is responsible for database connectivity and shall open and close the connection on it's own.
+ </summary>
+	<param name="SPName"></param>
+	<param name="ParameterList"></param>
+	<returns></returns>
+</member><member name="M:MyTool.MyCLS.clsExecuteStoredProcSql.ExecuteSPNonQueryOutPut(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter},System.Collections.Generic.List{System.Data.SqlClient.SqlParameter},System.Int16@)">
+	<summary> 
+ This function shall Execute the Stored Procedure on the Database, this is a replica of using DOTNET ExecuteNonQuery 
+ This shall reduce lot of Development time in invoking the database properties. 
+ Input Parameters: String SPName -&gt; Name of the Stored Procedures 
+ ParameterList -&gt; List of Type SQLParameter 
+ The function is responsible for database connectivity and shall open and close the connection on it's own. 
+ </summary>
+	<param name="SPName"></param>
+	<param name="ParameterList"></param>
+	<returns></returns>
+</member><member name="M:MyTool.MyCLS.isPasswordStrong(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ CHECKs FOR STRONG PASSWORD
+ </summary>
+	<param name="strPassword"></param>
+	<param name="IsContainCaps"></param>
+	<param name="IsContainSmall"></param>
+	<param name="IsContainNumber"></param>
+	<param name="IsContainSpecialChars"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.fnValidatePatterns(System.String,System.String)">
+	<summary>
+ FUNCTION TO MATCH VALID PATTERNS USING REGEX
+ </summary>
+	<param name="toMachString"></param>
+	<param name="patternString"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.fnValidatePatterns(System.Windows.Forms.TextBox@,System.String,System.String)">
+	<summary>
+ FUNCTION TO MATCH VALID PATTERNS 
+ </summary>
+	<param name="txt"></param>
+	<param name="strPattern"></param>
+	<param name="Type"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsProcessQueries.ProcessAllQueries">
+	<summary>
+ Process All Queries With its Own Transaction
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsProcessQueries.BeginTransaction">
+	<summary>
+ Begin Transaction to be used by ProcessAllQueries(Transaction) as Boolean
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsProcessQueries.CommitTransaction">
+	<summary>
+ Commit Transaction to be used by ProcessAllQueries(Transaction) as Boolean
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsProcessQueries.RollbackTransaction">
+	<summary>
+ Commit Transaction to be used by ProcessAllQueries(Transaction) as Boolean
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsProcessQueries.ProcessRestQueries">
+	<summary>
+ Process All Queries With New Transaction Begin Seperately With BeginTransaction
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsProcessQueries.ProcessQueryAt(System.Int16)">
+	<summary>
+ Process Query at Specified Index(Starts with 1) With New Transaction Begin Seperately With BeginTransaction
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsProcessQueries.ProcessSingleQuery(System.String)">
+	<summary>
+ Process Single Query With New Transaction Begin Seperately With BeginTransaction
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsProcessQueries.fnQuerySelect1Value(System.String,System.String)">
+	<summary>
+ Select Value From Query With New Transaction Begin Seperately With BeginTransaction
+ </summary>
+	<param name="SelectQ"></param>
+	<param name="ReturnType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsFileHandling.OpenFile(System.String)">
+	<summary>
+ TO OPEN A FILE TO WRITE USING WRITEFILE FUNCTION
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsFileHandling.WriteFile(System.String)">
+	<summary>
+ TO WRITE A FILE. AFTER WRITING THE FILE USE CLOSEFILE!
+ </summary>
+	<param name="Str"></param>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsFileHandling.CloseFile(System.Boolean)">
+	<summary>
+ TO CLOSE THE FILE OPENED BY OPENFILE FUNCTION
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsFileHandling.ReadFile(System.String)">
+	<summary>
+ TO READ A FILE
+ </summary>
+	<param name="Str"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsFileHandling.prcCreateFileListInTxt(System.String,System.Int32,System.Boolean,System.String)">
+	<summary>
+ Create File-Folder List in Txt File
+ </summary>
+	<param name="DirLoc"></param>
+	<param name="FillTab"></param>
+	<remarks></remarks>
+</member><member name="T:MyTool.MyCLS.clsFileHandling">
+	<summary>
+ CLASS TO HANDEL TEXT FILE OPERATIONS LIKE - OPEN,CLOSE AND WRITE
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsDBOperations.GetTables">
+	<summary>
+ TO GET THE LIST OF ALL TABLES WITH IN A DATABASE
+ </summary>
+	<returns>SINGLE DIMENTION ARRAY OF STRING</returns>
+	<remarks>CAN BE USED DIRECTLY</remarks>
+</member><member name="M:MyTool.MyCLS.clsDBOperations.GetColumns(System.String)">
+	<summary>
+ TO GET THE LIST OF COLUMN NAMES AND COLUMN DATA TYPE WITH IN A TABLE
+ </summary>
+	<param name="Table"></param>
+	<returns>TWO DIMENTION ARRAY OF STRING</returns>
+	<remarks>CAN BE USED DIRECTLY</remarks>
+</member><member name="M:MyTool.MyCLS.clsDBOperations.FillDetails">
+	<summary>
+ TO SET CLSTABLES CLASS WITH TABLE NAMES, COLUMN NAMES AND COLUMN DATA TYPES
+ </summary>
+	<returns>LIST OF clsTables CLASS WITH DETAILS</returns>
+	<remarks>USE THIS FUNCTION ONLY TO CAPTURE FULL DETAILS OF DATABASE</remarks>
+</member><member name="M:MyTool.MyCLS.clsPDFOperations.WritePDFinTXT(System.String,System.Boolean)">
+	<summary>
+ Write PDF Data into TXT File
+ </summary>
+	<param name="PDFFilePath"></param>
+	<param name="RunFile"></param>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsPDFOperations.FindLocationInPDF(System.String,System.Byte,System.Int64)">
+	<summary>
+ Return PDF Data as String When Found "FindWhat" After "AfterWords" Words
+ </summary>
+	<param name="PDFFilePath"></param>
+	<param name="FindWhat"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsDOCOperations.OpenDOC(System.String,System.Boolean,System.Boolean)">
+	<summary>
+ Open Doc File
+ </summary>
+	<param name="DocFile"></param>
+	<param name="Visible"></param>
+	<param name="SaveAs"></param>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsDOCOperations.CloseDOC">
+	<summary>
+ Close Doc File
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsDOCOperations.DocReplace(System.String,System.String)">
+	<summary>
+ Replace text within Doc File
+ </summary>
+	<param name="strFind"></param>
+	<param name="strReplace"></param>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsDOCOperations.GetDocData">
+	<summary>
+ Get Complete Text From Doc File
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MyTool.MyCLS.clsQuotesFixInQuery.FixQuotesInQuery(System.String)">
+	<summary>
+ Fixes Quotes problems in Sql Queries
+ </summary>
+	<param name="strQ"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:MyTool.MyCLS.clsRTFtoHTML.rtf">
+	<summary>
+ Returns/Sets The RTF formatted text to parse
+ </summary>
+</member><member name="P:MyTool.MyCLS.clsRTFtoHTML.html">
+	<summary>
+ Returns the HTML code for the provided RTF
+ </summary>
+</member><member name="M:MyTool.MyCLS.clsRTFtoHTML.HtmlColorFromColor(System.Drawing.Color@)">
+	<summary>
+ Returns an HTML Formated Color string for the style from a system.drawing.color
+ </summary>
+	<param name="clr">The color you wish to convert</param>
+</member><member name="M:MyTool.MyCLS.clsRTFtoHTML.HtmlFontStyleFromFont(System.Drawing.Font@)">
+	<summary>
+ Provides the font style per given font
+ </summary>
+	<param name="fnt">The font you wish to convert</param>
+</member><member name="M:MyTool.MyCLS.clsRTFtoHTML.GetHtml">
+	<summary>
+ Parses the given rich text and returns the html.
+ </summary>
+</member><member name="M:MyTool.MyCLS.clsXMLOperations.TransformXML(System.String,System.String,System.String)">
+	<summary>
+ Transform Xml into a XML Style Document as Defined in XSL file
+ </summary>
+	<param name="sXmlPath"></param>
+	<param name="sXslPath"></param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

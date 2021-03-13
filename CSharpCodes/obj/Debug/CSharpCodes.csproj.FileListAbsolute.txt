@@ -1,0 +1,5 @@
+D:\Narender\Projects\VB.NET\2008\MyTool\CSharpCodes\bin\Debug\CSharpCodes.dll
+D:\Narender\Projects\VB.NET\2008\MyTool\CSharpCodes\bin\Debug\CSharpCodes.pdb
+D:\Narender\Projects\VB.NET\2008\MyTool\CSharpCodes\obj\Debug\CSharpCodes.dll
+D:\Narender\Projects\VB.NET\2008\MyTool\CSharpCodes\obj\Debug\CSharpCodes.pdb
+D:\Narender\Projects\VB.NET\2008\MyTool\CSharpCodes\obj\Debug\CSharpCodes.csprojResolveAssemblyReference.cache

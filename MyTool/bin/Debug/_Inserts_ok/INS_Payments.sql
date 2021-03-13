@@ -1,0 +1,3 @@
+Set Identity_insert Payments On
+INSERT INTO [Payments] ([ID],[REFENMBR],[CALLDATE],[CUSTNAME],[INVAMT],[PAYDT],[CHKNO],[CHKDT],[AMTRECD],[DETAILS],[PAYMODE])VALUES(17,122,'Dec 14 2009 12:00:00:000AM','Lamprey Health Care',25.0000,'Dec 14 2009 12:00:00:000AM','12345','Dec  5 2009 12:00:00:000AM',25.0000,'','CHECK')
+Set Identity_insert Payments Off

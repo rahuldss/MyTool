@@ -1,0 +1,2144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly>
+<name>CrystalDecisions.CrystalReports.Engine</name>
+</assembly>
+<members>
+<member name="T:CrystalDecisions.CrystalReports.Engine.Area">
+<summary>
+<para>Represents an area in a report. An area is a group of like sections in the report that all share the same characteristics.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Area.AreaFormat">
+<summary>
+<para>Gets the AreaFormat object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Area.Kind">
+<summary>
+<para>Gets the kind of area or section.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Area.Name">
+<summary>
+<para>Gets the area name.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Area.Sections">
+<summary>
+<para>Gets a collection of all the sections in the area.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.AreaFormat">
+<summary>
+<para>Allows you to retrieve information and set options for a specified area in a report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.AreaFormat.EnableHideForDrillDown">
+<summary>
+<para>Gets or sets hide for drill down option.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.AreaFormat.EnableKeepTogether">
+<summary>
+<para>Gets or sets the keep area together option.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.AreaFormat.EnableNewPageAfter">
+<summary>
+<para>Gets or sets the new page after option.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.AreaFormat.EnableNewPageBefore">
+<summary>
+<para>Gets or sets the new page before option.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.AreaFormat.EnablePrintAtBottomOfPage">
+<summary>
+<para>Gets or sets the print at bottom of page option.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.AreaFormat.EnableResetPageNumberAfter">
+<summary>
+<para>Gets or sets the reset page number after option.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.AreaFormat.EnableSuppress">
+<summary>
+<para>Gets or sets the area visibility.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.Areas">
+<summary>
+<para>Contains the <see cref="T:CrystalDecisions.CrystalReports.Engine.Area">Area</see> objects for every area in the report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Areas.Count">
+<summary>
+<para>Gets the number of <c>Area</c> objects in the collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Areas.Item(System.String)">
+<summary>
+<para>Gets the object with the specified name. In C#, this property is the indexer for the Areas class.</para>
+</summary>
+<param name="fieldName"></param>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Areas.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the Areas class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.BlobFieldObject">
+<summary>
+<para>Represents a blob field object on the report. This class allows you to retrieve the objects representing the specific kind of field object and also allows you to set generic format options inherited from the <see cref="T:CrystalDecisions.CrystalReports.Engine.ReportObject">ReportObject</see> class.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.BlobFieldObject.DataSource">
+<summary>
+<para>Gets the FieldDefinition object.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.BooleanFieldFormat">
+<summary>
+<para>Allows you to get and set the Boolean output type for Boolean fields.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.BooleanFieldFormat.OutputType">
+<summary>
+<para>Gets or sets the Boolean output type.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.Border">
+<summary>
+<para>Allows you to get and set border options for report objects in a report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Border.BackgroundColor">
+<summary>
+<para>Gets or sets the background color of the object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Border.BorderColor">
+<summary>
+<para>Gets or sets the border color of the object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Border.BottomLineStyle">
+<summary>
+<para>Gets or sets the line style for the bottom line of the object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Border.HasDropShadow">
+<summary>
+<para>Gets or sets the border drop shadow option.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Border.LeftLineStyle">
+<summary>
+<para>Gets or sets the line style for the left line of the object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Border.RightLineStyle">
+<summary>
+<para>Gets or sets the line style for the right line of the object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Border.TopLineStyle">
+<summary>
+<para>Gets or sets the line style for the top line of the object.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.BoxObject">
+<summary>
+<para>Represents a box that has been drawn on the report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.BoxObject.FillColor">
+<summary>
+<para>Gets or sets the fill color of the object.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.ChartObject">
+<summary>
+<para>Represents a chart object on the report.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.CommonFieldFormat">
+<summary>
+<para>Allows you to set format options common to all fields in a report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.CommonFieldFormat.EnableSuppressIfDuplicated">
+<summary>
+<para>Gets or sets the suppress if duplicate option.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.CommonFieldFormat.EnableUseSystemDefaults">
+<summary>
+<para>Gets or sets the use system defaults formatting option.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.CrossTabObject">
+<summary>
+<para>Represents a cross-tab object on the report.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.Database">
+<summary>
+<para>Provides properties to get information about the database accessed by a report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Database.Links">
+<summary>
+<para>Gets the <c>TableLinks</c> collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Database.Tables">
+<summary>
+<para>Gets the <c>Tables</c> collection.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.DatabaseFieldDefinition">
+<summary>
+<para>Represents a database field used in the report and provides properties for getting information on database fields in the report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DatabaseFieldDefinition.TableName">
+<summary>
+<para>Gets the name of the parent table.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.DatabaseFieldDefinitions">
+<summary>
+<para>Contains the <see cref="T:CrystalDecisions.CrystalReports.Engine.DatabaseFieldDefinition">DatabaseFieldDefinition</see> objects for every database field in the report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DatabaseFieldDefinitions.Count">
+<summary>
+<para>Gets the number of <c>DatabaseFieldDefinition</c> objects in the collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DatabaseFieldDefinitions.Item(System.String)">
+<summary>
+<para>Gets the object with the specified name. In C#, this property is the indexer for the DatabaseFieldDefinitions class.</para>
+</summary>
+<param name="fieldName"></param>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DatabaseFieldDefinitions.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the DatabaseFieldDefinitions class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.DataDefinition">
+<summary>
+<para>Contains all the information relating to data manipulation based on the data source in a report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.FormulaFields">
+<summary>
+<para>Gets the <see cref="T:CrystalDecisions.CrystalReports.Engine.FormulaFieldDefinitions">FormulaFieldDefinitions</see> collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.GroupNameFields">
+<summary>
+<para>Gets the GroupNameFieldDefinitions collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.Groups">
+<summary>
+<para>Gets the Groups collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.GroupSelectionFormula">
+<summary>
+<para>Gets or sets the group selection formula.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.ParameterFields">
+<summary>
+<para>Gets the <see cref="T:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinitions">ParameterFieldDefinitions</see> collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.RecordSelectionFormula">
+<summary>
+<para>Gets or sets the record selection formula.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.RunningTotalFields">
+<summary>
+<para>Gets the <see cref="T:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinitions">RunningTotalFieldDefinitions</see> collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.SortFields">
+<summary>
+<para>Gets the <c>SortFields</c> collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.SQLExpressionFields">
+<summary>
+<para>Gets the <see cref="T:CrystalDecisions.CrystalReports.Engine.SQLExpressionFieldDefinitions">SQLExpressionFieldDefinitions</see> collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.SummaryFields">
+<summary>
+<para>Gets the <see cref="T:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinitions">SummaryFieldDefinitions</see> collection.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.DateFieldFormat">
+<summary>
+<para>Allows you to get and set date format options for a date field in a report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DateFieldFormat.DayFormat">
+<summary>
+<para>Gets or sets the day format.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DateFieldFormat.MonthFormat">
+<summary>
+<para>Gets or sets the month format.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DateFieldFormat.YearFormat">
+<summary>
+<para>Gets or sets the year format.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.DateTimeFieldFormat">
+<summary>
+<para>Allows you to get and set date and time format options for a date-time field in a report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DateTimeFieldFormat.DateFormat">
+<summary>
+<para>Gets the DateFieldFormat object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DateTimeFieldFormat.DateTimeSeparator">
+<summary>
+<para>Gets or sets the date time separator.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DateTimeFieldFormat.TimeFormat">
+<summary>
+<para>Gets the TimeFieldFormat object.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.DateTimeGroupOptions">
+<summary>
+<para>Allows you to get and set date and time options for a date-time group in a report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DateTimeGroupOptions.Condition">
+<summary>
+<para>Gets or sets the numeric value for the group condition.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DateTimeGroupOptions.DateTimeCondition">
+<summary>
+<para>Gets or sets the enumerated value for the date time condition.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.DrawingObject">
+<summary>
+<para>Base class providing generic properties for various kinds of drawing objects.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DrawingObject.Bottom">
+<summary>
+<para>Gets or sets the object's bottom coordinate, in twips.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DrawingObject.EnableExtendToBottomOfSection">
+<summary>
+<para>Gets or sets the extend to bottom of section option.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DrawingObject.EndSectionName">
+<summary>
+<para>Gets the name of the section at the bottom of the object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DrawingObject.LineColor">
+<summary>
+<para>Gets or sets the line color of the object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DrawingObject.LineStyle">
+<summary>
+<para>Gets or sets the line style for the object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DrawingObject.LineThickness">
+<summary>
+<para>Gets or sets the thickness of the line in twips.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.DrawingObject.Right">
+<summary>
+<para>Gets or sets the object's right coordinate, in twips.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.FieldDefinition">
+<summary>
+<para>Base class providing generic properties for various kinds of field definition objects.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FieldDefinition.FormulaName">
+<summary>
+<para>Gets the field definition unique formula name in Crystal Report formula syntax.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FieldDefinition.Kind">
+<summary>
+<para>Gets the kind of field.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FieldDefinition.Name">
+<summary>
+<para>Gets the object's name.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FieldDefinition.NumberOfBytes">
+<summary>
+<para>Gets the number of bytes required to store the field data in memory.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FieldDefinition.UseCount">
+<summary>
+<para>Obsolete. Gets the number of times a field is used in a report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FieldDefinition.ValueType">
+<summary>
+<para>Gets the type of field value.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.FieldFormat">
+<summary>
+<para>Allows you to get various types of field format objects in order to get and set the format options for that field.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FieldFormat.BooleanFormat">
+<summary>
+<para>Gets the <see cref="T:CrystalDecisions.CrystalReports.Engine.BooleanFieldFormat">BooleanFieldFormat</see> object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FieldFormat.CommonFormat">
+<summary>
+<para>Gets the <see cref="T:CrystalDecisions.CrystalReports.Engine.CommonFieldFormat">CommonFieldFormat</see> object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FieldFormat.DateFormat">
+<summary>
+<para>Gets the <see cref="T:CrystalDecisions.CrystalReports.Engine.DateFieldFormat">DateFieldFormat</see> object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FieldFormat.DateTimeFormat">
+<summary>
+<para>Gets the <see cref="T:CrystalDecisions.CrystalReports.Engine.DateTimeFieldFormat">DateTimeFieldFormat</see> object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FieldFormat.NumericFormat">
+<summary>
+<para>Gets the <see cref="T:CrystalDecisions.CrystalReports.Engine.NumericFieldFormat">NumericFieldFormat</see> object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FieldFormat.TimeFormat">
+<summary>
+<para>Gets the <see cref="T:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat">TimeFieldFormat</see> object.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.FieldHeadingObject">
+<summary>
+<para>Represents a field-heading object found in a report. This object provides properties and methods for retrieving information and setting options for a field-heading object in a report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FieldHeadingObject.FieldObjectName">
+<summary>
+<para>Gets the name of the field object that this heading represents.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.FieldObject">
+<summary>
+<para>Represents a Field object on a report. This class allows you to retrieve the objects representing the specific kind and type of field object and also allows you to set generic format options inherited from the <c>ReportObject</c> class.</para>
+</summary>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.FieldObject.ApplyFont(System.Drawing.Font)">
+<summary>
+<para>Applies changes made to the System.Drawing.Font object.</para>
+</summary>
+<param name="font">Contains the font settings for the <c>FieldObject</c>.</param>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FieldObject.Color">
+<summary>
+<para>Gets or sets the color of the object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FieldObject.DataSource">
+<summary>
+<para>Gets the <see cref="T:CrystalDecisions.CrystalReports.Engine.FieldDefinition">FieldDefinition</see> object. Use the FieldDefinition object to get and set format information specific to the kind of field.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FieldObject.FieldFormat">
+<summary>
+<para>Gets the <c>FieldFormat</c> object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FieldObject.Font">
+<summary>
+<para>Gets the Font object.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.FormulaFieldDefinition">
+<summary>
+<para>Provides properties and methods for retrieving information and setting options for any named formula field in a report.</para>
+</summary>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.FormulaFieldDefinition.Check(System.String@)">
+<summary>
+<para>Checks the formula. If there is a syntax error it returns an error string and false.</para>
+</summary>
+<param name="errString"><para>If there is a syntax error then <c>errString</c> contains the error, otherwise <c>errString</c> is empty.</para></param>
+<returns>
+<para>A Boolean value, indicating if the formula syntax is correct.</para>
+</returns>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FormulaFieldDefinition.Text">
+<summary>
+<para>Gets or sets the text of the formula.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.FormulaFieldDefinitions">
+<summary>
+<para>Contains the <see cref="T:CrystalDecisions.CrystalReports.Engine.FormulaFieldDefinition">FormulaFieldDefinition</see> objects for every formula field in the report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FormulaFieldDefinitions.Count">
+<summary>
+<para>Gets the number of <c>FormulaFieldDefinition</c> objects in the collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FormulaFieldDefinitions.Item(System.String)">
+<summary>
+<para>Gets the object with the specified name. In C#, this property is the indexer for the FormulaFieldDefinition class.</para>
+</summary>
+<param name="fieldName"></param>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.FormulaFieldDefinitions.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the FormulaFieldDefinition class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.GraphicObject">
+<summary>
+<para>Base class providing generic properties for various kinds of graphic objects.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.Group">
+<summary>
+<para>Provides properties for retrieving the specific field definition object the group is based on as well as the <c>GroupOptions</c> object used to set the group's condition.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Group.ConditionField">
+<summary>
+<para>Gets the FieldDefinition object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Group.GroupOptions">
+<summary>
+<para>Gets the GroupOptions object.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinition">
+<summary>
+<para>Provides properties for retrieving information on a group name field found in a report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinition.FormulaName">
+<summary>
+<para>Gets the field definition unique formula name in Crystal Report formula syntax.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinition.Group">
+<summary>
+<para>Gets the Group object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinition.GroupNameFieldName">
+<summary>
+<para>Gets the group name field name.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinition.Kind">
+<summary>
+<para>Gets the kind of field.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinition.Name">
+<summary>
+<para>Gets the object's name.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinition.NumberOfBytes">
+<summary>
+<para>Gets the number of bytes required to store the field data in memory.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinition.ValueType">
+<summary>
+<para>Gets the type of field value.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinitions">
+<summary>
+<para>Contains the GroupNameFieldDefinition objects for every group name field in the report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinitions.Count">
+<summary>
+<para>Gets the number of <see cref="T:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinition">GroupNameFieldDefinition</see> objects in the collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinitions.Item(System.String)">
+<summary>
+<para>Gets the object with the specified name. In C#, this property is the indexer for the <c>GroupNameFieldDefinition</c> class.</para>
+</summary>
+<param name="fieldName"></param>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinitions.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the <c>GroupNameFieldDefinition</c> class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.GroupOptions">
+<summary>
+<para>Base class providing generic properties for various kinds of group options objects.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.GroupOptions.Condition">
+<summary>
+<para>Gets or sets the numeric value for the group condition.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.Groups">
+<summary>
+<para>Contains the <c>Group</c> objects for every group in the report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Groups.Count">
+<summary>
+<para>Gets the number of <c>Group</c> objects in the collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Groups.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the <c>Group</c> class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.LineObject">
+<summary>
+<para>Represents a line object drawn on the report. This class allows you to retrieve information and set generic format options inherited from the <c>DrawingObject</c> class.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.MapObject">
+<summary>
+<para>Represents a geographic map object on the report.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.NumericFieldFormat">
+<summary>
+<para>Allows you to get and set the numeric format options for any number field in a report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.NumericFieldFormat.CurrencySymbolFormat">
+<summary>
+<para>Gets or sets the currency symbol type.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.NumericFieldFormat.DecimalPlaces">
+<summary>
+<para>Gets or sets the number of decimal places.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.NumericFieldFormat.EnableUseLeadingZero">
+<summary>
+<para>Gets or sets the option to use a leading zero for decimal values.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.NumericFieldFormat.NegativeFormat">
+<summary>
+<para>Gets or sets the negative format type.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.NumericFieldFormat.RoundingFormat">
+<summary>
+<para>Gets or sets the rounding format type.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.ObjectFormat">
+<summary>
+<para>Allows you to get or set formatting options that affect the physical behavior of objects in a report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ObjectFormat.CssClass">
+<summary>
+<para>Gets or sets the name of the cascading style sheet (CSS) for the object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ObjectFormat.EnableCanGrow">
+<summary>
+<para>Gets or sets the option for the object to grow to accommodate field input.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ObjectFormat.EnableCloseAtPageBreak">
+<summary>
+<para>Gets or sets the close border on page break option.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ObjectFormat.EnableKeepTogether">
+<summary>
+<para>Gets or sets the keep object together option.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ObjectFormat.EnableSuppress">
+<summary>
+<para>Gets or sets the object's visibility.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ObjectFormat.HorizontalAlignment">
+<summary>
+<para>Gets or sets the alignment type.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.OlapGridObject">
+<summary>
+<para>Represents an OLAP grid object on the report. This class allows you to retrieve information and set generic format options inherited from the <c>ReportObject</c> class.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition">
+<summary>
+<para>Represents a parameter field in the report. This object provides properties and methods for retrieving information and setting options for a parameter field in a report.</para>
+</summary>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ApplyCurrentValues(CrystalDecisions.Shared.ParameterValues)">
+<summary>
+<para>Applies the current values to the specified parameter field of a report.</para>
+</summary>
+<param name="currentValues">Contains the current values set for the parameter.</param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ApplyDefaultValues(CrystalDecisions.Shared.ParameterValues)">
+<summary>
+<para>Applies values to the group of default values for a specified parameter in a report.</para>
+</summary>
+<param name="defaultValue"><para>Contains the default values set for the parameter.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ApplyMinMaxValues(System.Object,System.Object)">
+<summary>
+<para>Applies the maximum and minimum values to a specified parameter in a report.</para>
+</summary>
+<param name="minValue"><para>Indicates the minimum allowable value for the parameter.</para></param>
+<param name="maxValue"><para>Indicates the maximum allowable value for the parameter.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.IsLinked">
+<summary>
+<para>Tests to see if the parameter is linked. A linked parameter is created when a main report is linked to a subreport.</para>
+</summary>
+<returns>
+</returns>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.CurrentValues">
+<summary>
+<para>Gets the current values through the <c>ParameterValues</c> object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.DefaultValues">
+<summary>
+<para>Gets the default values through the <c>ParameterValues</c> object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.DefaultValueSortMethod">
+<summary>
+<para>Gets the method in which the default values are sorted.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.DefaultValueSortOrder">
+<summary>
+<para>Gets or sets the order in which the default values are sorted.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.DiscreteOrRangeKind">
+<summary>
+<para>Gets or sets whether or not the parameter field contains discrete values, range values, or both.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.EditMask">
+<summary>
+<para>Gets or sets edit mask that restricts what may be entered for string parameters.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.EnableAllowEditingDefaultValue">
+<summary>
+<para>Gets or sets if the default values can be edited.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.EnableAllowMultipleValue">
+<summary>
+<para>Gets or sets the allow multiple values option.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.EnableNullValue">
+<summary>
+<para>Gets the allow null value option for stored procedure parameters.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.HasCurrentValue">
+<summary>
+<para>Gets whether the parameter has a current value.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.MaximumValue">
+<summary>
+<para>Gets the maximum value.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.MinimumValue">
+<summary>
+<para>Gets the minimum value.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ParameterFieldName">
+<summary>
+<para>Gets the name of the parameter field.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ParameterFieldUsage">
+<summary>
+<para>Gets the property that describes how the parameter is used within the report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ParameterType">
+<summary>
+<para>Gets the parameter type.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ParameterValueKind">
+<summary>
+<para>Gets the type of the parameter value.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.PromptText">
+<summary>
+<para>Gets or sets the parameter field prompting string.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ReportName">
+<summary>
+<para>Gets the report name the parameter field is in. If it is a main report, the report name is empty.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinitions">
+<summary>
+<para>Contains the ParameterFieldDefinition objects for every parameter field in the report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinitions.Count">
+<summary>
+<para>Gets the number of <c>ParameterFieldDefinition</c> objects in the collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinitions.Item(System.String,System.String)">
+<summary>
+<para>Gets the object with the specified parameter name and report name. In C#, this property is the indexer for the ParameterFieldDefinition class.</para>
+</summary>
+<param name="subreportName"></param>
+<param name="index"></param>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinitions.Item(System.String)">
+<summary>
+<para>Gets the object with the specified name. In C#, this property is the indexer for the ParameterFieldDefinition class.</para>
+</summary>
+<param name="fieldName"></param>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinitions.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the ParameterFieldDefinition class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.PictureObject">
+<summary>
+<para>Represents a picture object on the report.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.PrintOptions">
+<summary>
+<para>Provides properties and methods for setting the options for printing a report.
+      </para>
+</summary>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.PrintOptions.ApplyPageMargins(CrystalDecisions.Shared.PageMargins)">
+<summary>
+<para>Applies the page margin settings to the report.
+      </para>
+</summary>
+<param name="margin"><para>Contains the page margins settings for the report.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.PrintOptions.CopyFrom(System.Drawing.Printing.PrinterSettings,System.Drawing.Printing.PageSettings)">
+<summary>
+<para>Copies the values of <c>PrinterSettings</c> and <c>PageSettings</c> into this <see cref="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintOptions">PrintOptions</see>.</para>
+</summary>
+<param name="printer">The PrinterSettings to use.</param>
+<param name="page">The PageSettings to use.</param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.PrintOptions.CopyTo(System.Drawing.Printing.PrinterSettings,System.Drawing.Printing.PageSettings)">
+<summary>
+<para>Copies the values of this PrintOptions into PrinterSettings and PageSettings.  </para>
+</summary>
+<param name="printer">The PrinterSettings to use.</param>
+<param name="page">The PageSettings to use.</param>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.CustomPaperSource">
+<summary>
+<para>Gets or sets the current printer paper source.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.PageContentHeight">
+<summary>
+<para>Gets the height of the page's content.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.PageContentWidth">
+<summary>
+<para>Gets the width of the page's content.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.PageMargins">
+<summary>
+<para>Gets the reports' page margins. Use the ApplyPageMargins method to apply the changes.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.PaperOrientation">
+<summary>
+<para>Gets or sets the current printer paper orientation.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.PaperSize">
+<summary>
+<para>Gets or sets the current printer paper size.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.PaperSource">
+<summary>
+<para>Gets or sets the current printer paper source.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.PrinterDuplex">
+<summary>
+<para>Gets or sets the current printer duplex option.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.PrinterName">
+<summary>
+<para>Gets or sets the printer name used by the report.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.ReportDefinition">
+<summary>
+<para>Allows you to retrieve all of the <c>ReportObjects</c>, and <see cref="T:CrystalDecisions.CrystalReports.Engine.Sections">Sections</see> in a report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDefinition.Areas">
+<summary>
+<para>Gets the Areas collection.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDefinition.ReportObjects">
+<summary>
+<para>Gets the ReportObjects collection.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDefinition.Sections">
+<summary>
+<para>Gets the Sections collection.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.ReportDocument">
+<summary>
+<para>Represents a report and contains properties and methods to define, format, load, export, and print the report.
+      </para>
+</summary>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Close">
+<summary>
+<para>Closes the report.
+      </para>
+</summary>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.EnableEventLog(CrystalDecisions.Shared.EventLogLevel)">
+<summary>
+<para>Enables the event log for the print engine. By default the log is not enabled.
+      </para>
+</summary>
+<param name="elLevel">Indicates whether to enable the event log.</param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Export(CrystalDecisions.Shared.ExportOptions)">
+<summary>
+<para>Exports a report to a format and destination specified within the <see cref="T:CrystalDecisions.Shared.ExportOptions">ExportOptions</see> Object.
+            </para>
+</summary>
+<param name="options"><para>The format and destination to export the report.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToDisk(CrystalDecisions.Shared.ExportFormatType,System.String)">
+<summary>
+<para>Exports a report to a file in the specified format.
+      </para>
+</summary>
+<param name="formatType">The format type to export the report.</param>
+<param name="fileName">The file name to export the report.</param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportOptions,System.Web.HttpResponse,System.Boolean,System.String)">
+<summary>
+<para>Exports a report to the response object in the specified format.
+      </para>
+</summary>
+<param name="options"><para>The options for the export of the report.</para></param>
+<param name="response"><para>The response object of the page.</para></param>
+<param name="asAttachment"><para>Indicates whether or not the report will be exported as an attachment of the response.</para></param>
+<param name="attachmentName"><para>The file name to export the report.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportFormatType,System.Web.HttpResponse,System.Boolean,System.String)">
+<summary>
+<para>Exports a report to the response object in the specified format.
+      </para>
+</summary>
+<param name="formatType"><para>The format type to export the report.</para></param>
+<param name="response"><para>The response object of the page.</para></param>
+<param name="asAttachment"><para>Indicates whether or not the report will be exported as an attachment of the response.</para></param>
+<param name="attachmentName"><para>The file name to export the report.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToStream(CrystalDecisions.Shared.ExportFormatType)">
+<summary>
+<para>Exports a report to a stream in the specified format.
+      </para>
+</summary>
+<param name="formatType"><para>The format type to export the report.</para></param>
+<returns>
+<para>A stream that contains the exported report as a sequence of bytes.</para>
+</returns>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.GetConcurrentUsage">
+<summary>
+<para>Returns the number of concurrent jobs opened allowing developers to build license monitoring into their applications.
+      </para>
+</summary>
+<returns>
+<para>The number of concurrent jobs opened.</para>
+</returns>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String,CrystalDecisions.Shared.OpenReportMethod)">
+<summary>
+<para>Loads a new report and sets the <see cref="T:CrystalDecisions.Shared.OpenReportMethod">OpenReportMethod</see> enumeration. If a report is already loaded, then it is closed and a new one is opened.
+      </para>
+</summary>
+<param name="filename">Indicates the path and filename of the report.</param>
+<param name="openMethod">Indicates if the report is to be opened as a temporary copy or by default.</param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String)">
+<summary>
+<para>Loads a new report. If a report is already loaded, then it is closed and a new one is opened.
+      </para>
+</summary>
+<param name="filename"><para>Indicates the path and filename of the report.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.OpenSubreport(System.String)">
+<summary>
+<para>Opens a subreport contained in the report and returns a <c>ReportDocument</c> object corresponding to the named subreport.
+      </para>
+</summary>
+<param name="subreportName"></param>
+<returns>
+<para>Returns a separate ReportDocument that represents the subreport.</para>
+</returns>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Int32,System.Boolean,System.Int32,System.Int32)">
+<summary>
+<para>Prints the specified pages of the report to the printer selected using the PrintOptions.PrinterName property. If no printer is selected, the default printer specified in the report will be used.
+      </para>
+</summary>
+<param name="nCopies"><para>Indicates the number of copies to print.</para></param>
+<param name="collated"><para>Indicates whether to collate the pages.</para></param>
+<param name="startPageN"><para>Indicates the first page to print.</para></param>
+<param name="endPageN"><para>Indicates the last page to print.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Refresh">
+<summary>
+<para>Removes saved data. This causes fresh data to be loaded when the report is subsequently viewed.
+      </para>
+</summary>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(System.String,System.Boolean)">
+<summary>
+<para>Saves the report and its data into the specified file.
+      </para>
+</summary>
+<param name="filename"><para>Indicates the path and filename of the report.</para></param>
+<param name="saveDataWithReport"><para>Indicates whether or not the report data will be saved.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(System.String)">
+<summary>
+<para>Saves the report into the specified file.
+      </para>
+</summary>
+<param name="filename"><para>Indicates the path and filename of the report.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetCssClass(CrystalDecisions.Shared.ObjectScope,System.String)">
+<summary>
+<para>Sets the cascading style sheet (CSS) for various sections and report objects.
+      </para>
+</summary>
+<param name="objectScope"><para>Indicates the section or sections of the report that the style class will apply to. For example, set the style for the whole report, or set the style for the Report Header section.</para></param>
+<param name="cssClass"><para>The name of the style class as defined in the style sheet.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String)">
+<summary>
+<para>Sets the database logon information with a user name and password.
+      </para>
+</summary>
+<param name="user"><para>The user name.</para></param>
+<param name="password"><para>The password.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String,System.String,System.String)">
+<summary>
+<para>Sets the database logon information. This method sets the user name, the password, the server name and the database name.
+      </para>
+</summary>
+<param name="user"><para>The user name.</para></param>
+<param name="password"><para>The password.</para></param>
+<param name="server"><para>The server name.</para></param>
+<param name="database"><para>The database name.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Object)">
+<summary>
+<para>Passes an Object to the report engine.</para>
+</summary>
+<param name="dataSet"><para>Represents a valid dataset object.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.IDataReader)">
+<summary>
+<para>Passes an IDataReader to the report engine.</para>
+</summary>
+<param name="dataReader"><para>Represents a valid <c>IDataReader</c> object.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.DataTable)">
+<summary>
+<para>Passes an IDataReader to the report engine.</para>
+</summary>
+<param name="dataTable"><para>Represents a valid <c>DataTable</c> object.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.DataSet)">
+<summary>
+<para>Passes a Recordset or Dataset to the report engine.
+      </para>
+</summary>
+<param name="dataSet"><para>Represents a valid dataset object.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.Int32,System.Object)">
+<summary>
+<para>Sets the current value of a parameter field at the specified index. The value can be a primitive, ParameterValue, an array of either type, or a ParameterValues collection.
+      </para>
+</summary>
+<param name="index"><para>The index of the parameter field.</para></param>
+<param name="val">Represents a valid parameter value. It can be a primitive, ParameterValue, an array of either type, or a ParameterValues collection.</param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.String,System.Object)">
+<summary>
+<para>Sets the current value of a parameter field. The value can be a primitive, ParameterValue, an array of either type, or a ParameterValues collection.
+      </para>
+</summary>
+<param name="name"><para>The name of the parameter field.</para></param>
+<param name="val"><para>Represents a valid parameter value. It can be a primitive, ParameterValue, an array of either type, or a ParameterValues collection.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.String,System.Object,System.String)">
+<summary>
+<para>Sets the current value of a parameter field in a subreport. The value can be a primitive, ParameterValue, an array of either type, or a ParameterValues collection.
+      </para>
+</summary>
+<param name="name"><para>The name of the parameter field.</para></param>
+<param name="val"><para>Represents a valid parameter value. It can be a primitive, ParameterValue, an array of either type, or a ParameterValues collection.</para></param>
+<param name="subreport"><para>The name of the subreport to which the parameter field belong.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.VerifyDatabase">
+<summary>
+<para>Checks whether the database connection is active for the report that is loaded by the <c>ReportDocument</c> object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.Database">
+<summary>
+<para>Gets the Database object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.DataDefinition">
+<summary>
+<para>Gets the DataDefinition object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.DataSourceConnections">
+<summary>
+<para>A collection of IConnectionInfo objects which contains connection info of all the tables in the report. This does not include the subreports.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.EnterpriseSession">
+<summary>
+<para>Gets or sets the reference to the <c>EnterpriseSession</c> object when the RAS server is managed by BusinessObjects Enterprise.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportOptions">
+<summary>
+<para>Gets the <c>ExportOptions</c> class instance.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.FileName">
+<summary>
+<para>Specifies the name of the report file. If protocol or drive letter is specified, a "ras://" default is assumed.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.FilePath">
+<summary>
+<para>Specifies the name of the report file without the protocol prefix.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.HasSavedData">
+<summary>
+<para>Gets whether the report has data saved in memory.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.IsLoaded">
+<summary>
+<para>Gets whether the report has been loaded using the <see cref="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Load" useOverloadPage="true">Load</see> method.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.IsSubreport">
+<summary>
+<para>Gets whether the report is a subreport.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.Name">
+<summary>
+<para>Gets the report name. For the main report, the report name is empty.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ParameterFields">
+<summary>
+<para>Gets the parameter fields.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintOptions">
+<summary>
+<para>Gets the PrintOptions object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.RecordSelectionFormula">
+<summary>
+<para>Gets or sets record selection formula.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportAppServer">
+<summary>
+<para>Gets or sets the name of the Report Application Server (also know as the RAS Server).
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportClientDocument">
+<summary>
+<para>The ReportClientDocument class is an entry point to the underlying Report Application Server API. If ReportDocument.ReportAppServer does not point to a Report Application Server, this property will throw an exception.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportDefinition">
+<summary>
+<para>Gets the ReportDefinition object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportOptions">
+<summary>
+<para>Gets the ReportOptions object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.Subreports">
+<summary>
+<para>Subreports. Gets the Subreports object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.SummaryInfo">
+<summary>
+<para>Gets the SummaryInfo object.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.ReportObject">
+<summary>
+<para>Base class providing generic properties for various kinds of report objects.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportObject.Border">
+<summary>
+<para>Gets the Border object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportObject.Height">
+<summary>
+<para>Gets or sets the object's height, in twips.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportObject.Kind">
+<summary>
+<para>Gets kind of report object from the ReportObjectKind enum.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportObject.Left">
+<summary>
+<para>Gets or sets the object's upper left position, in twips.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportObject.Name">
+<summary>
+<para>Gets the object's name.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportObject.ObjectFormat">
+<summary>
+<para>Gets the ObjectFormat object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportObject.Top">
+<summary>
+<para>Gets or sets the object's upper top position, in twips.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportObject.Width">
+<summary>
+<para>Gets or sets the object's width, in twips.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.ReportObjects">
+<summary>
+<para>Contains the <c>ReportObject</c> objects for every report object in the report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportObjects.Count">
+<summary>
+<para>Gets the number of <c>ReportObject</c> objects in the collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportObjects.Item(System.String)">
+<summary>
+<para>Gets the object with the specified name. In C#, this property is the indexer for the <c>ReportObject</c> class.</para>
+</summary>
+<param name="fieldName"></param>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportObjects.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the <c>ReportObject</c> class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.ReportOptions">
+<summary>
+<para>Allows you to get and set the data related report options in a report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportOptions.EnableSaveDataWithReport">
+<summary>
+<para>Gets or sets the option to automatically save database data with a report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportOptions.EnableSavePreviewPicture">
+<summary>
+<para>Gets or sets the option to save a thumbnail picture of a report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportOptions.EnableSaveSummariesWithReport">
+<summary>
+<para>Gets or sets the option to save the data summaries you create with the report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportOptions.EnableUseDummyData">
+<summary>
+<para>Gets or sets the option to use dummy data when viewing the report at design time.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportOptions.InitialDataContext">
+<summary>
+<para>Gets or sets the specific record or records that will become the initial data displayed in the <see cref="T:CrystalDecisions.Web.CrystalReportPartsViewer">CrystalReportPartsViewer</see>.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.ReportOptions.InitialReportPartName">
+<summary>
+<para>Gets or sets the name of the report part that will be displayed in the <c>CrystalReportPartsViewer</c> by default.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition">
+<summary>
+<para>Represents a running total field used in the report. This class provides properties for getting information on running total fields in the report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition.EvaluationCondition">
+<summary>
+<para>Gets the evaluation condition object for this RunningTotalFieldDefinition.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition.Group">
+<summary>
+<para>Gets the Group object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition.Name">
+<summary>
+<para>Gets the running total field name.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition.Operation">
+<summary>
+<para>Gets the summary operation type.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition.OperationParameter">
+<summary>
+<para>Gets the operation parameter based on the <see cref="T:CrystalDecisions.Shared.SummaryOperation">SummaryOperation</see> type.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition.ResetCondition">
+<summary>
+<para>Gets the reset condition object for this <c>RunningTotalFieldDefinition</c>.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition.SecondarySummarizedField">
+<summary>
+<para>Gets the secondary summarized field's FieldDefinition object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition.SummarizedField">
+<summary>
+<para>Gets the main summarized field's FieldDefinition object.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinitions">
+<summary>
+<para>Contains the <see cref="T:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition">RunningTotalFieldDefinition</see> objects for every running total field in the report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinitions.Count">
+<summary>
+<para>Gets the number of <c>RunningTotalFieldDefinition</c> objects in the collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinitions.Item(System.String)">
+<summary>
+<para>Gets the object with the specified name. In C#, this property is the indexer for the <c>RunningTotalFieldDefinition</c> class.</para>
+</summary>
+<param name="fieldName"></param>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinitions.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the <c>RunningTotalFieldDefinition</c> class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.SCRCollection">
+<summary>
+<para>For internal use only.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.Section">
+<summary>
+<para>Report areas contain at least one section. This class includes properties for accessing information regarding a section of a report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Section.Height">
+<summary>
+<para>Gets or sets the object's height, in twips.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Section.Kind">
+<summary>
+<para>Gets the kind of area or section.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Section.Name">
+<summary>
+<para>Gets the section name.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Section.ReportObjects">
+<summary>
+<para>Gets the ReportObjects collection.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Section.SectionFormat">
+<summary>
+<para>Gets the SectionFormat object.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.SectionFormat">
+<summary>
+<para>Allows you to get and set format options for a section.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.BackgroundColor">
+<summary>
+<para>Gets or sets the background color of the object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.CssClass">
+<summary>
+<para>Gets or sets the name of the cascading style sheet (CSS) for the object. 
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.EnableKeepTogether">
+<summary>
+<para>Gets or sets the option that indicates whether to keep the entire section on the same page if it is split into two pages.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.EnableNewPageAfter">
+<summary>
+<para>Gets or sets the new page after options.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.EnableNewPageBefore">
+<summary>
+<para>Gets or sets the new page before option.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.EnablePrintAtBottomOfPage">
+<summary>
+<para>Gets or sets the print at bottom of page option.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.EnableResetPageNumberAfter">
+<summary>
+<para>Gets or sets the reset page number after option.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.EnableSuppress">
+<summary>
+<para>Gets or sets the area visibility.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.EnableSuppressIfBlank">
+<summary>
+<para>Gets or sets the option that indicates whether to suppress the current section if it is blank.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.EnableUnderlaySection">
+<summary>
+<para>Gets or sets the underlay following section option.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.Sections">
+<summary>
+<para>Contains the <c>Section</c> objects for every section in the report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Sections.Count">
+<summary>
+<para>Gets the number of <c>Section</c> objects in the collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Sections.Item(System.String)">
+<summary>
+<para>Gets the object with the specified name. In C#, this property is the indexer for the <c>Section</c> class.</para>
+</summary>
+<param name="fieldName"></param>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Sections.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the <c>Section</c> class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.SortField">
+<summary>
+<para>Represents a record or group sort field. This class provides properties to get and set information on sort fields in the report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SortField.Field">
+<summary>
+<para>Gets or sets the sort field's FieldDefinition object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SortField.SortDirection">
+<summary>
+<para>Gets or sets the sort direction.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SortField.SortType">
+<summary>
+<para>Gets the sort field type.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.SortFields">
+<summary>
+<para>Contains the <c>SortField</c> objects for every sort field in the report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SortFields.Count">
+<summary>
+<para>Gets the number of <c>SortField</c> objects in the collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SortFields.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the <c>SortField</c> class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.SpecialVarFieldDefinition">
+<summary>
+<para>Provides properties for retrieving information on a special field found in a report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SpecialVarFieldDefinition.SpecialVarType">
+<summary>
+<para>Gets the type of special field.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.SQLExpressionFieldDefinition">
+<summary>
+<para>Provides properties for retrieving information on a SQL expression field found in a report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SQLExpressionFieldDefinition.Kind">
+<summary>
+<para>Gets the kind of field.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SQLExpressionFieldDefinition.Text">
+<summary>
+<para>Gets the SQL expression text.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.SQLExpressionFieldDefinitions">
+<summary>
+<para>Contains the <see cref="T:CrystalDecisions.CrystalReports.Engine.SQLExpressionFieldDefinition">SQLExpressionFieldDefinition</see> objects for every SQL expression field in the report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SQLExpressionFieldDefinitions.Count">
+<summary>
+<para>Gets the number of <c>SQLExpressionFieldDefinition</c> objects in the collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SQLExpressionFieldDefinitions.Item(System.String)">
+<summary>
+<para>Gets the object with the specified name. In C#, this property is the indexer for the <c>SQLExpressionFieldDefinition</c> class.</para>
+</summary>
+<param name="fieldName"></param>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SQLExpressionFieldDefinitions.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the <c>SQLExpressionFieldDefinition</c> class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.SubreportObject">
+<summary>
+<para>Represents a subreport placed in a report.
+      </para>
+</summary>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.SubreportObject.OpenSubreport(System.String)">
+<summary>
+<para>The OpenSubreport method opens a subreport contained in the report and returns a <c>ReportDocument</c> Object corresponding to the named subreport.
+      </para>
+</summary>
+<param name="subReportName">Indicates the name of the subreport to open.</param>
+<returns>
+<para>Returns a separate ReportDocument that represents the subreport.</para>
+</returns>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SubreportObject.EnableOnDemand">
+<summary>
+<para>Gets or sets the real-time subreport option.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SubreportObject.SubreportName">
+<summary>
+<para>Gets the name of the subreport.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.Subreports">
+<summary>
+<para>Contains the <c>ReportDocument</c> objects for every subreport in the report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Subreports.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the <c>SubreportObject</c> class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Subreports.Item(System.String)">
+<summary>
+<para>Gets the object with the specified name. In C#, this property is the indexer for the <c>SubreportObject</c> class.</para>
+</summary>
+<param name="fieldName"></param>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinition">
+<summary>
+<para>Represents a summary field used in the report. This class provides properties for getting information on summary fields in the report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinition.Group">
+<summary>
+<para>Gets the Group object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinition.Name">
+<summary>
+<para>Gets the object's name.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinition.Operation">
+<summary>
+<para>Gets the summary operation type.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinition.OperationParameter">
+<summary>
+<para>Gets the operation parameter based on the <c>SummaryOperation</c> type.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinition.SecondarySummarizedField">
+<summary>
+<para>Gets the main summarized field's FieldDefinition object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinition.SummarizedField">
+<summary>
+<para>Gets the secondary summarized field's FieldDefinition object.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinitions">
+<summary>
+<para>Contains the <c>SummaryFieldDefinition</c> objects for every summary in the report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinitions.Count">
+<summary>
+<para>Gets the number of <c>SummaryFieldDefinition</c> objects in the collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinitions.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the <c>SummaryFieldDefinition</c> class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.SummaryInfo">
+<summary>
+<para>Allows you to get and set summary report information.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SummaryInfo.KeywordsInReport">
+<summary>
+<para>Gets or sets the keywords in the report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SummaryInfo.ReportAuthor">
+<summary>
+<para>Gets or sets the report author.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SummaryInfo.ReportComments">
+<summary>
+<para>Gets or sets the report comments.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SummaryInfo.ReportSubject">
+<summary>
+<para>Gets or sets the report subject.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.SummaryInfo.ReportTitle">
+<summary>
+<para>Gets or sets the report title.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.Table">
+<summary>
+<para>Represents a database table accessed by the report. This class provides properties and methods to get information about the table and set logon information for the table.
+      </para>
+</summary>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.Table.ApplyLogOnInfo(CrystalDecisions.Shared.TableLogOnInfo)">
+<summary>
+<para>Updates changes to the <see cref="T:CrystalDecisions.Shared.TableLogOnInfo">TableLogOnInfo</see> object returned through the <c>Table.LogOnInfo</c> property.
+      </para>
+</summary>
+<param name="logonInfo">Contains the logon information.</param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.Table.SetDataSource(System.Object)">
+<summary>
+<para>Passes a <c>Recordset</c> or <c>Dataset</c> to the report engine.
+      </para>
+</summary>
+<param name="val"><para>Represents a valid dataset object.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.Table.SetDataSource(System.Data.IDataReader)">
+<summary>
+<para>Passes a <c>IDataReader</c> to the report engine.</para>
+</summary>
+<param name="dataReader"><para>Represents a valid IDataReader object.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.Table.SetDataSource(System.Data.DataTable)">
+<summary>
+<para>Passes a <c>DataTable</c> to the report engine.</para>
+</summary>
+<param name="dataTable"><para>Represents a valid <c>DataTable</c> object.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.Table.SetDataSource(System.Data.DataSet)">
+<summary>
+<para>Passes a <c>Recordset</c> or <c>Dataset</c> to the report engine.</para>
+</summary>
+<param name="dataSet"><para>Represents a valid dataset object.</para></param>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.Table.TestConnectivity">
+<summary>
+<para>Tests to see if a connection to the database can be established with the current information, and if the report can access the database table.
+      </para>
+</summary>
+<returns>
+<para>
+<b>True</b> if the database session, log on, and location information is correct. <b>False</b> if the connection fails or an error occurs.</para>
+</returns>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Table.Fields">
+<summary>
+<para>Gets the DatabaseFieldDefinitions collection.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Table.Location">
+<summary>
+<para>Gets or sets the location of the database table.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Table.LogOnInfo">
+<summary>
+<para>Gets the TableLogOnInfo object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Table.Name">
+<summary>
+<para>Gets the alias name for the database table used in the report.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.TableLink">
+<summary>
+<para>Allows you to retrieve information on the database table links.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TableLink.DestinationFields">
+<summary>
+<para>Gets reference to table link destination <c>DatabaseFieldDefinitions</c> collection.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TableLink.DestinationTable">
+<summary>
+<para>Gets reference to the table link destination Table object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TableLink.JoinType">
+<summary>
+<para>Gets a summary of the linking used by the table.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TableLink.SourceFields">
+<summary>
+<para>Gets reference to table link source DatabaseFieldDefinitions collection.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TableLink.SourceTable">
+<summary>
+<para>Gets reference to the table link source Table object.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.TableLinks">
+<summary>
+<para>Contains the <see cref="T:CrystalDecisions.CrystalReports.Engine.TableLink">TableLink</see> objects for every table link in the report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TableLinks.Count">
+<summary>
+<para>Gets the number of <c>TableLink</c> objects in the collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TableLinks.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the TableLink class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.Tables">
+<summary>
+<para>Contains the <c>Table</c> objects for every table in the report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Tables.Count">
+<summary>
+<para>Gets the number of <c>Table</c> objects in the collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Tables.Item(System.String)">
+<summary>
+<para>Gets the object with the specified name. In C#, this property is the indexer for the Table class.</para>
+</summary>
+<param name="fieldName"></param>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.Tables.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the Table class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.TextObject">
+<summary>
+<para>Represents a text object found in a report. This object provides properties and methods for retrieving information and setting options for a text object in a report.
+      </para>
+</summary>
+</member>
+<member name="M:CrystalDecisions.CrystalReports.Engine.TextObject.ApplyFont(System.Drawing.Font)">
+<summary>
+<para>Applies changes made to the System.Drawing.Font object.
+      </para>
+</summary>
+<param name="font"><para>Contains the font settings for the TextObject.</para></param>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TextObject.Color">
+<summary>
+<para>Gets or sets the color of the object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TextObject.Font">
+<summary>
+<para>Gets the <c>Font</c> object.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TextObject.Text">
+<summary>
+<para>Gets or sets the text within the text object.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat">
+<summary>
+<para>Allows you to get and set time format options for any time field in a report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.AMPMFormat">
+<summary>
+<para>Gets or sets the AM/PM type.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.AMString">
+<summary>
+<para>Gets or sets the AM string.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.HourFormat">
+<summary>
+<para>Gets or sets the hour type.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.HourMinuteSeparator">
+<summary>
+<para>Gets or sets the hour minute separator.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.MinuteFormat">
+<summary>
+<para>Gets or sets the minute type.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.MinuteSecondSeparator">
+<summary>
+<para>Gets or sets minute second separator.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.PMString">
+<summary>
+<para>Gets or sets the PM string.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.SecondFormat">
+<summary>
+<para>Gets or sets the seconds type.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.TimeBase">
+<summary>
+<para>Gets or sets the time base.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.CrystalReports.Engine.TopBottomNSortField">
+<summary>
+<para>Allows you to get and set options for the TopN and BottomN sort field.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TopBottomNSortField.EnableDiscardOtherGroups">
+<summary>
+<para>Gets or sets the discard other groups option.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TopBottomNSortField.NotInTopBottomNName">
+<summary>
+<para>Gets or sets the group heading for the groups that are not in the <see cref="T:CrystalDecisions.CrystalReports.Engine.TopBottomNSortField">TopBottomNSortFields</see> specified in the report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TopBottomNSortField.NumberOfTopOrBottomNGroups">
+<summary>
+<para>Gets or sets the number of groups to display in a top or bottom sort.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.Engine.TopBottomNSortField.SortType">
+<summary>
+<para>Gets the sort field type.
+      </para>
+</summary>
+</member>
+</members>
+</doc>

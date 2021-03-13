@@ -1,0 +1,3121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly>
+<name>CrystalDecisions.Shared</name>
+</assembly>
+<members>
+<member name="T:CrystalDecisions.CrystalReports.ViewerObjectModel.ReportPartBookmark">
+<summary>
+<para>Provides properties for the ReportPartBookMark property of the <see cref="T:CrystalDecisions.Web.ReportPartBookmarkNavigationEventArgs">ReportPartBookmarkNavigationEventArgs</see> class.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.ViewerObjectModel.ReportPartBookmark.DataContext">
+<summary>
+<para>Gets the data sub tree of the report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.ViewerObjectModel.ReportPartBookmark.ObjectName">
+<summary>
+<para>Gets the name of the object the user has drilled down on.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.CrystalReports.ViewerObjectModel.ReportPartBookmark.ReportUri">
+<summary>
+<para>Gets or sets the Uniform Resource Identifier to identify the requested report.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.Alignment">
+<summary>
+<para>Specifies the horizontal alignment for text in the HorizontalAlignment property of the <see cref="T:CrystalDecisions.CrystalReports.Engine.ObjectFormat">ObjectFormat</see> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.Alignment.Decimal">
+<summary>
+<para>Aligns to the decimal in a numeric value.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.Alignment.DefaultAlign">
+<summary>
+<para>Aligns to the default alignment setting.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.Alignment.HorizontalCenterAlign">
+<summary>
+<para>Aligns to the center of the available space horizontally.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.Alignment.Justified">
+<summary>
+<para>Aligns to the left and right edge.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.Alignment.LeftAlign">
+<summary>
+<para>Aligns to the left edge.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.Alignment.RightAlign">
+<summary>
+<para>Aligns to the right edge.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.AMPMFormat">
+<summary>
+<para>Specifies the AM PM format in the <c>AMPMFormat</c> property of the <see cref="T:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat">TimeFieldFormat</see> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.AMPMFormat.AMPMAfter">
+<summary>
+<para>Placement for the AM or PM symbols in the time field appear after the time.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.AMPMFormat.AMPMBefore">
+<summary>
+<para>Placement for the AM or PM symbols in the time field appear before the time.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.AreaSectionKind">
+<summary>
+<para>Specifies the kind of area or section in the Kind property of the <see cref="T:CrystalDecisions.CrystalReports.Engine.Area">Area</see> class and <see cref="T:CrystalDecisions.CrystalReports.Engine.Section">Section</see> class, and the <see cref="P:CrystalDecisions.Shared.ExcelFormatOptions.ExcelAreaType">ExcelAreaType</see> property of the <see cref="T:CrystalDecisions.Shared.ExcelFormatOptions">ExcelFormatOptions</see> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.AreaSectionKind.Detail">
+<summary>
+<para>Area is a details section.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.AreaSectionKind.GroupFooter">
+<summary>
+<para>Area is a group footer.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.AreaSectionKind.GroupHeader">
+<summary>
+<para>Area is a group header.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.AreaSectionKind.PageFooter">
+<summary>
+<para>Area is a page footer.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.AreaSectionKind.PageHeader">
+<summary>
+<para>Area is a page header.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.AreaSectionKind.ReportFooter">
+<summary>
+<para>Area is a report footer.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.AreaSectionKind.ReportHeader">
+<summary>
+<para>Area is a report header.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.BooleanOutputType">
+<summary>
+<para>Specifies the Boolean output type in the <c>OutputType</c> property of the <see cref="T:CrystalDecisions.CrystalReports.Engine.BooleanFieldFormat">BooleanFieldFormat</see> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.BooleanOutputType.OneOrZero">
+<summary>
+<para>Boolean value to be displayed as a 1 or 0. 1 = <b>True</b>, 0 = <b>False</b>.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.BooleanOutputType.TOrF">
+<summary>
+<para>Boolean value to be displayed as a T or F. T = <b>True</b>, F = <b>False</b>.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.BooleanOutputType.TrueOrFalse">
+<summary>
+<para>Boolean value to be displayed as <b>True</b> or <b>False</b>.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.BooleanOutputType.YesOrNo">
+<summary>
+<para>Boolean value to be displayed as Yes or No. Yes = <b>True</b>, No = <b>False</b>.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.BooleanOutputType.YOrN">
+<summary>
+<para>Boolean value to be displayed as a Y or N. Y = <b>True</b>, N = <b>False</b>.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ConnectionInfo">
+<summary>
+<para>Provides properties for retrieving and setting options for connecting to database servers or ODBC data sources.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ConnectionInfo.DatabaseName">
+<summary>
+<para>Gets or sets the name of the database.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ConnectionInfo.IntegratedSecurity">
+<summary>
+<para>Determines whether the database connection will use integrated security.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ConnectionInfo.Password">
+<summary>
+<para>Gets or sets the password for logging on to the data source.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ConnectionInfo.ServerName">
+<summary>
+<para>Gets or sets the name of the server or ODBC data source where the database is located.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ConnectionInfo.UserID">
+<summary>
+<para>Gets or sets a user name for logging on to the data source.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.CurrencySymbolFormat">
+<summary>
+<para>Specifies the currency symbol in the <c>CurrencySymbolFormat</c> property of the <see cref="T:CrystalDecisions.CrystalReports.Engine.NumericFieldFormat">NumericFieldFormat</see> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.CurrencySymbolFormat.FixedSymbol">
+<summary>
+<para>Position of currency symbol to be at the far left of the field. Extra spaces will be left between the symbol and the currency value if the field is justified to the right.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.CurrencySymbolFormat.FloatingSymbol">
+<summary>
+<para>Position of currency symbol to be as close to the currency amount as possible.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.CurrencySymbolFormat.NoSymbol">
+<summary>
+<para>Currency symbol will not be displayed.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.DataSourceConnections">
+<summary>
+<para>Contains the <see cref="T:CrystalDecisions.Shared.ConnectionInfo">ConnectionInfo</see> instances for every connection in the report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.DataSourceConnections.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the <see cref="T:CrystalDecisions.Shared.IConnectionInfo">IConnectionInfo</see> class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="P:CrystalDecisions.Shared.DataSourceConnections.Item(System.String,System.String)">
+<summary>
+<para>Gets the object with the specified server and database names. In C#, this property is the indexer for the <c>IConnectionInfo</c> class.</para>
+</summary>
+<param name="database"></param>
+<param name="index"></param>
+</member>
+<member name="P:CrystalDecisions.Shared.DataSourceConnections.Item(System.String,System.String,System.Boolean)">
+<summary>
+<para>Gets the object with the specified server and database names. Use this method to optionally ignore case on the database name. In C#, this property is the indexer for the <c>IConnectionInfo</c> class.</para>
+</summary>
+<param name="database"></param>
+<param name="ignoreCaseInDatabaseName"></param>
+<param name="boolean"></param>
+</member>
+<member name="T:CrystalDecisions.Shared.DateTimeCondition">
+<summary>
+<para>Specifies the date time condition for a group in the DateTimeGroupCondition property of the DateTimeGroupOptions class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DateTimeCondition.Annually">
+<summary>
+<para>Data is grouped in yearly intervals.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DateTimeCondition.Biweekly">
+<summary>
+<para>Data is grouped in two-week intervals.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DateTimeCondition.ByAMPM">
+<summary>
+<para>Data is grouped in half-day intervals.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DateTimeCondition.ByHour">
+<summary>
+<para>Data is grouped in hourly intervals.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DateTimeCondition.ByMinute">
+<summary>
+<para>Data is grouped in 60-second intervals.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DateTimeCondition.BySecond">
+<summary>
+<para>Data is grouped by the second.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DateTimeCondition.Daily">
+<summary>
+<para>Data is grouped on a daily interval.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DateTimeCondition.Monthly">
+<summary>
+<para>Data is grouped in monthly intervals.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DateTimeCondition.Quarterly">
+<summary>
+<para>Data is grouped in 3-month intervals.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DateTimeCondition.SemiAnnually">
+<summary>
+<para>Data is grouped in 6-month intervals.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DateTimeCondition.Semimonthly">
+<summary>
+<para>Data is grouped in half-month intervals.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DateTimeCondition.Weekly">
+<summary>
+<para>Data is grouped in weekly intervals.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.DayFormat">
+<summary>
+<para>Specifies the day format in the DayFormat property of the DateFieldFormat class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DayFormat.LeadingZeroNumericDay">
+<summary>
+<para>Single digit days will be printed with a leading zero.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DayFormat.NoDay">
+<summary>
+<para>Day is not printed.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DayFormat.NumericDay">
+<summary>
+<para>Day is printed in numeric format with no leading zero.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.DefaultValueSortMethod">
+<summary>
+<para>Specifies the default values for the <c>DefaultValueSortMethod</c> property of the <see cref="T:CrystalDecisions.Shared.ParameterField">ParameterField</see> class and <see cref="T:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition">ParameterFieldDefinition</see> class.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DefaultValueSortMethod.BasedOnDescription">
+<summary>
+<para>Sort parameter values based on their descriptions.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DefaultValueSortMethod.BasedOnValue">
+<summary>
+<para>Sort parameter values based on their values.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.DefaultValueSortOrder">
+<summary>
+<para>Specifies the default values for the <c>DefaultValueSortOrder</c> property of the <c>ParameterField</c> class and <c>ParameterFieldDefinition</c> class.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DefaultValueSortOrder.AlphabeticalAscending">
+<summary>
+<para>Sort parameter values alphabetically in ascending order.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DefaultValueSortOrder.AlphabeticalDescending">
+<summary>
+<para>Sort parameter values alphabetically in descending order.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DefaultValueSortOrder.DateTimeAscending">
+<summary>
+<para>Sort parameter values chronologically in ascending order.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DefaultValueSortOrder.DateTimeDescending">
+<summary>
+<para>Sort parameter values chronologically in descending order.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DefaultValueSortOrder.NoSort">
+<summary>
+<para>Do not sort parameter values.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DefaultValueSortOrder.NumericAscending">
+<summary>
+<para>Sort parameter values numerically in ascending order.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DefaultValueSortOrder.NumericDescending">
+<summary>
+<para>Sort parameter values numerically in descending order.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.DiscreteOrRangeKind">
+<summary>
+<para>Specifies whether the parameter value is discrete, ranged, or both in the <see cref="P:CrystalDecisions.Shared.ParameterField.PromptingType">PromptingType</see> property of the <c>ParameterField</c> class and in the <c>DiscreteOrRangeKind</c> property of the <c>ParameterFieldDefinition</c> class.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DiscreteOrRangeKind.DiscreteAndRangeValue">
+<summary>
+<para>Parameter contains discrete and range values.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DiscreteOrRangeKind.DiscreteValue">
+<summary>
+<para>Parameter contains discrete values only.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.DiscreteOrRangeKind.RangeValue">
+<summary>
+<para>Parameter contains range values only.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.DiskFileDestinationOptions">
+<summary>
+<para>Provides properties for retrieving and setting the file name when exporting to disk.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.DiskFileDestinationOptions.DiskFileName">
+<summary>
+<para>Gets or sets the location of the file name.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.EnterpriseReport">
+<summary>
+<para>The <c>EnterpriseReport</c> class is a managed component that acts as a proxy to the <c>EnterpriseReportService</c> class while providing a limited object model to the developer.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.EnterpriseReport.ApsServer">
+<summary>
+<para>Gets or sets the machine name of the APS server.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.EnterpriseReport.AuthenticationType">
+<summary>
+<para>Gets or sets the authentication type. Valid values are secEnterprise and secWindowsNT.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.EnterpriseReport.CmsServer">
+<summary>
+<para>Gets or sets the machine name of the CMS server.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.EnterpriseReport.LogonToken">
+<summary>
+<para>Gets or sets the logon token used by the report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.EnterpriseReport.ObjectID">
+<summary>
+<para>Gets or sets the unique object ID that identifies the report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.EnterpriseReport.ObjectName">
+<summary>
+<para>Gets the name of the Enterprise report or Enterprise folder.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.EnterpriseReport.ObjectType">
+<summary>
+<para>Gets the type of the Enterprise Report.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.EnterpriseReport.Password">
+<summary>
+<para>Gets or sets the logon password.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.EnterpriseReport.Username">
+<summary>
+<para>Gets or sets the user name.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.EnterpriseReport.WebConnector">
+<summary>
+<para>Gets or sets the machine name of the Web Connector Server.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.EnterpriseReport.WebServiceUrl">
+<summary>
+<para>Gets or sets the URL to the EnterpriseReportService Web service.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.EnumEnterpriseObjectType">
+<summary>
+<para>Specifies the object type in the <c>ObjectType</c> property of the <c>EnterpriseReport</c> class.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.EnumEnterpriseObjectType.FOLDER">
+<summary>
+<para>Indicates that the object is an Enterprise folder.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.EnumEnterpriseObjectType.INVALID">
+<summary>
+<para>Indicates that the object is invalid.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.EnumEnterpriseObjectType.REPORT">
+<summary>
+<para>Indicates that object is an Enterprise report.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.EnumEnterpriseObjectType.UNKNOWN">
+<summary>
+<para>Indicates that the object is an unknown Enterprise object type, but not a container.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.EnumEnterpriseObjectType.UNKNOWN_CONTAINER">
+<summary>
+<para>Indicates that the object is an unknown Enterprise object type that is a container.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.EnumServerFileType">
+<summary>
+<para>Specifies the object type in the <c>ObjectType</c> property of the <see cref="T:CrystalDecisions.Shared.ServerFileReport">ServerFileReport</see> Class.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.EnumServerFileType.FOLDER">
+<summary>
+<para>Indicates that the object is a Server File folder.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.EnumServerFileType.INVALID">
+<summary>
+<para>Indicates that the object is invalid.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.EnumServerFileType.REPORT">
+<summary>
+<para>Indicates that object is a Server File report.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.EventLogLevel">
+<summary>
+<para>Specifies the type of errors to log in the <see cref="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.EnableEventLog(CrystalDecisions.Shared.EventLogLevel)">EnableEventLog</see> method of the <see cref="T:CrystalDecisions.CrystalReports.Engine.ReportDocument">ReportDocument</see> class.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.EventLogLevel.LogCRPEAPIErrors">
+<summary>
+<para>Indicates that event logging will record Crystal Report Print Engine API errors.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.EventLogLevel.LogEngineErrors">
+<summary>
+<para>Indicates that event logging will record Crystal Report Print Engine errors.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.EventLogLevel.NoLogging">
+<summary>
+<para>Indicates that there will be no event logging.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ExcelFormatOptions">
+<summary>
+<para>Provides properties for retrieving and setting options when exporting to Excel.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExcelFormatOptions.ExcelAreaGroupNumber">
+<summary>
+<para>Gets or sets the base area group number if the area type is group area.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExcelFormatOptions.ExcelAreaType">
+<summary>
+<para>Gets or sets the area type if not using constant column width.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExcelFormatOptions.ExcelConstantColumnWidth">
+<summary>
+<para>Gets or sets the column width.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExcelFormatOptions.ExcelTabHasColumnHeadings">
+<summary>
+<para>Gets or sets export to Excel to have column headings option.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExcelFormatOptions.ExcelUseConstantColumnWidth">
+<summary>
+<para>Gets or sets export to Excel to use constant column width.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExcelFormatOptions.FirstPageNumber">
+<summary>
+<para>Gets or sets the first page number.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExcelFormatOptions.LastPageNumber">
+<summary>
+<para>Gets or sets the last page number.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExcelFormatOptions.UsePageRange">
+<summary>
+<para>Gets or sets whether the page range should be used.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ExceptionEventArgs">
+<summary>
+<para>Provides data for the Exception event.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExceptionEventArgs.Handled">
+<summary>
+<para>Gets or sets whether the event was handled. Set to true if you do not want the default action to occur.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ExchangeDestinationType">
+<summary>
+<para>Specifies the exchange destination type in the <see cref="P:CrystalDecisions.Shared.ExchangeFolderDestinationOptions.DestinationType">DestinationType</see> property of the <see cref="T:CrystalDecisions.Shared.ExchangeFolderDestinationOptions">ExchangeFolderDestinationOptions</see> class.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ExchangeDestinationType.ExchangePostDocMessage">
+<summary>
+<para>Destination is a message post in an exchange folder.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ExchangeFolderDestinationOptions">
+<summary>
+<para>Provides properties for retrieving and setting options when exporting to Microsoft exchange folders.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExchangeFolderDestinationOptions.DestinationType">
+<summary>
+<para>Gets or sets the export destination type.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExchangeFolderDestinationOptions.FolderPath">
+<summary>
+<para>Gets or sets the path of the Exchange folder for reports exported to Exchange
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExchangeFolderDestinationOptions.Password">
+<summary>
+<para>Gets or sets Exchange password.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExchangeFolderDestinationOptions.Profile">
+<summary>
+<para>Gets or sets a user profile for accessing an Exchange folder for reports exported to Exchange.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ExportDestinationType">
+<summary>
+<para>Specifies the export destination type in the <c>ExportDestinationType</c> property of the <see cref="T:CrystalDecisions.Shared.ExportOptions">ExportOptions</see> class.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ExportDestinationType.DiskFile">
+<summary>
+<para>Export destination is to a disk file.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ExportDestinationType.ExchangeFolder">
+<summary>
+<para>Export destination is to an exchange folder.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ExportDestinationType.MicrosoftMail">
+<summary>
+<para>Export destination is to Microsoft mail (MAPI).
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ExportDestinationType.NoDestination">
+<summary>
+<para>No Export destination type set.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ExportFormatType">
+<summary>
+<para>Specifies the export format type in the <c>ExportFormatType</c> property of the <c>ExportOptions</c> class.
+</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ExportFormatType.CrystalReport">
+<summary>
+<para>Export format of the report is a Crystal Report file.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ExportFormatType.Excel">
+<summary>
+<para>Export format of the report is a Microsoft Excel file.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ExportFormatType.ExcelRecord">
+<summary>
+<para>Export format of the report is an Excel Record file.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ExportFormatType.HTML32">
+<summary>
+<para>Export format of the report is an HTML 3.2 file.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ExportFormatType.HTML40">
+<summary>
+<para>Export format of the report is an HTML 4.0 file.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ExportFormatType.NoFormat">
+<summary>
+<para>No export format specified.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ExportFormatType.PortableDocFormat">
+<summary>
+<para>Export format of the report is a PDF file.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ExportFormatType.RichText">
+<summary>
+<para>Export format of the report is a rich text file.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ExportFormatType.WordForWindows">
+<summary>
+<para>Export format of the report is a Microsoft Word file.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ExportOptions">
+<summary>
+<para>Provides properties for retrieving and setting options for exporting your report.
+      </para>
+</summary>
+</member>
+<member name="M:CrystalDecisions.Shared.ExportOptions.CreateDiskFileDestinationOptions">
+<summary>
+<para>Creates options for the <see cref="T:CrystalDecisions.Shared.DiskFileDestinationOptions">DiskFileDestinationOptions</see> for the report's export.
+      </para>
+</summary>
+<returns>
+</returns>
+</member>
+<member name="M:CrystalDecisions.Shared.ExportOptions.CreateExcelFormatOptions">
+<summary>
+<para>Creates options for the <c>ExcelFormatOptions</c> for the report's export.</para>
+</summary>
+<returns>
+</returns>
+</member>
+<member name="M:CrystalDecisions.Shared.ExportOptions.CreateExchangeFolderDestinationOptions">
+<summary>
+<para>Creates options for the <c>ExchangeFolderDestinationOptions</c> for the report's export.</para>
+</summary>
+<returns>
+</returns>
+</member>
+<member name="M:CrystalDecisions.Shared.ExportOptions.CreateHTMLFormatOptions">
+<summary>
+<para>Creates options for the <see cref="T:CrystalDecisions.Shared.HTMLFormatOptions">HTMLFormatOptions</see> for the report's export.</para>
+</summary>
+<returns>
+</returns>
+</member>
+<member name="M:CrystalDecisions.Shared.ExportOptions.CreateMicrosoftMailDestinationOptions">
+<summary>
+<para>Creates options for the <see cref="T:CrystalDecisions.Shared.MicrosoftMailDestinationOptions">MicrosoftMailDestinationOptions</see> for the report's export.</para>
+</summary>
+<returns>
+</returns>
+</member>
+<member name="M:CrystalDecisions.Shared.ExportOptions.CreatePdfRtfWordFormatOptions">
+<summary>
+<para>Creates options for the <see cref="T:CrystalDecisions.Shared.PdfRtfWordFormatOptions">PdfRtfWordFormatOptions</see> for the report's export.</para>
+</summary>
+<returns>
+</returns>
+</member>
+<member name="P:CrystalDecisions.Shared.ExportOptions.DestinationOptions">
+<summary>
+<para>Gets or sets the DestinationOptions.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExportOptions.ExportDestinationOptions">
+<summary>
+<para>Gets or sets the options for the destination of the export for the report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExportOptions.ExportDestinationType">
+<summary>
+<para>Gets or sets the export destination type.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExportOptions.ExportFormatOptions">
+<summary>
+<para>Gets or sets the <c>ExportFormatOptions</c>.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExportOptions.ExportFormatType">
+<summary>
+<para>Gets or sets the export format type.
+      </para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ExportOptions.FormatOptions">
+<summary>
+<para>Gets or sets the FormatOptions. 
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.FieldKind">
+<summary>
+<para>Specifies the field kind in the Kind property of the <see cref="T:CrystalDecisions.CrystalReports.Engine.FieldDefinition">FieldDefinition</see> class and all classes derived from <c>FieldDefinition</c>.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldKind.DatabaseField">
+<summary>
+<para>The field is a database field.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldKind.FormulaField">
+<summary>
+<para>The field is a formula.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldKind.GroupNameField">
+<summary>
+<para>The field is a group name field.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldKind.ParameterField">
+<summary>
+<para>The field is a parameter.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldKind.RunningTotalField">
+<summary>
+<para>The field is a running total.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldKind.SpecialVarField">
+<summary>
+<para>The field is a special variable.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldKind.SQLExpressionField">
+<summary>
+<para>	The field is a SQL expression.
+      </para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldKind.SummaryField">
+<summary>
+<para>The field is a summary.
+      </para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.FieldValueType">
+<summary>
+<para>Specifies the field value type in the ValueType property of the <c>FieldDefinition</c> Class and all classes derived from <c>FieldDefinition</c>.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.BitmapField">
+<summary>
+<para>Field contains Windows bitmap data.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.BlobField">
+<summary>
+<para>Field contains blob data.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.BooleanField">
+<summary>
+<para>Field contains either a true or false value.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.ChartField">
+<summary>
+<para>Field contains a chart object.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.CurrencyField">
+<summary>
+<para>Field contains a currency value.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.DateField">
+<summary>
+<para>Field contains a date value.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.DateTimeField">
+<summary>
+<para>Field contains a date-time value.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.IconField">
+<summary>
+<para>Field contains an icon.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.Int16sField">
+<summary>
+<para>Field contains a 16-bit integer with a value between -32768 and 32767.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.Int16uField">
+<summary>
+<para>Field contains an unsigned 16-bit integer with a value between 0 and 65535.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.Int32sField">
+<summary>
+<para>Field contains a 32-bit integer with a value between -2147483648 and 2147483647.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.Int32uField">
+<summary>
+<para>Field contains a 32-bit integer with a value between 0 and 4294967295.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.Int8sField">
+<summary>
+<para>Field contains an 8-bit integer with a value between -128 and 127.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.Int8uField">
+<summary>
+<para>Field contains an 8-bit integer with a value between 0 and 255.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.NumberField">
+<summary>
+<para>Field contains a number with decimal places.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.OleField">
+<summary>
+<para>Field contains an OLE object.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.PersistentMemoField">
+<summary>
+<para>Field contains a Memo field (string greater then 255 characters).</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.PictureField">
+<summary>
+<para>Field contains a picture.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.StringField">
+<summary>
+<para>Field contains string data.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.TimeField">
+<summary>
+<para>Field contains time data.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.TransientMemoField">
+<summary>
+<para>Field contains a transient Memo field (string greater then 255 characters).</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.FieldValueType.UnknownField">
+<summary>
+<para>Field type is unknown.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.GroupTreeStyle">
+<summary>
+<para>Provides properties for retrieving and setting display options for the group tree view.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.GroupTreeStyle.CssClass">
+<summary>
+<para>Gets or sets the cascading style sheet (CSS) file that specifies the display styles for the group tree view.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.GroupTreeStyle.Height">
+<summary>
+<para>Gets or sets the height of the group tree view.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.GroupTreeStyle.ShowLines">
+<summary>
+<para>Gets or sets if lines are shown in the group tree view.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.GroupTreeStyle.Width">
+<summary>
+<para>Gets or sets the width of the group tree view.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.HourFormat">
+<summary>
+<para>Specifies the hour format in the <c>HourFormat</c> property of the <c>TimeFieldFormat</c> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.HourFormat.NoHour">
+<summary>
+<para>Hour is not displayed.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.HourFormat.NumericHour">
+<summary>
+<para>Hour is displayed in numerical format with no leading 0.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.HourFormat.NumericHourNoLeadingZero">
+<summary>
+<para>Single digit hours are displayed with a leading zero.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.HTMLFormatOptions">
+<summary>
+<para>Provides properties for retrieving and setting options when exporting to HTML.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.HTMLFormatOptions.FirstPageNumber">
+<summary>
+<para>Gets or sets the first page of the report to export.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.HTMLFormatOptions.HTMLBaseFolderName">
+<summary>
+<para>Gets or sets the HTML folder name to export to.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.HTMLFormatOptions.HTMLEnableSeparatedPages">
+<summary>
+<para>Gets or sets the option to create separate pages when exporting to HTML format.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.HTMLFormatOptions.HTMLFileName">
+<summary>
+<para>Gets or sets the HTML file name to export to.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.HTMLFormatOptions.HTMLHasPageNavigator">
+<summary>
+<para>Gets or sets the option to display a page navigator on each page of a report exported to HTML format.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.HTMLFormatOptions.LastPageNumber">
+<summary>
+<para>Gets or sets the last page of the report to export.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.HTMLFormatOptions.UsePageRange">
+<summary>
+<para>Gets or sets if the FirstPageNumber and LastPageNumber should be used.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.IConnectionInfo">
+<summary>
+<para>Provides properties for retrieving options and methods for setting options for connecting to database servers or ODBC data sources.</para>
+</summary>
+</member>
+<member name="M:CrystalDecisions.Shared.IConnectionInfo.SetConnection(System.String,System.String,System.Boolean)">
+<summary>
+<para>Sets the connection information for connections that use Integrated Security.</para>
+</summary>
+<param name="server">The server name.</param>
+<param name="database">The database name.</param>
+<param name="useIntegratedSecurity">Set to <b>True</b> to use Integrated Security.</param>
+</member>
+<member name="M:CrystalDecisions.Shared.IConnectionInfo.SetConnection(System.String,System.String,System.String,System.String)">
+<summary>
+<para>Sets the connection information.</para>
+</summary>
+<param name="server">The server name.</param>
+<param name="database">The database name.</param>
+<param name="user">The user name.</param>
+<param name="password">The password</param>
+</member>
+<member name="M:CrystalDecisions.Shared.IConnectionInfo.SetLogon(System.String,System.String)">
+<summary>
+<para>Sets the logon information in the connection information.</para>
+</summary>
+<param name="user">The user name.</param>
+<param name="password">The password.</param>
+</member>
+<member name="P:CrystalDecisions.Shared.IConnectionInfo.DatabaseName">
+<summary>
+<para>Gets the name of the database.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.IConnectionInfo.IntegratedSecurity">
+<summary>
+<para>Determines whether the database connection will use integrated security.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.IConnectionInfo.Password">
+<summary>
+<para>Gets the password for logging on to the data source.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.IConnectionInfo.ServerName">
+<summary>
+<para>Gets the name of the server or ODBC data source where the database is located.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.IConnectionInfo.UserID">
+<summary>
+<para>Gets the user name for logging on to the data source.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.LineStyle">
+<summary>
+<para>Specifies the bottom, left, right, and top line styles in the <see cref="P:CrystalDecisions.CrystalReports.Engine.Border.BottomLineStyle">BottomLineStyle</see>, <see cref="P:CrystalDecisions.CrystalReports.Engine.Border.LeftLineStyle">LeftLineStyle</see>, <see cref="P:CrystalDecisions.CrystalReports.Engine.Border.RightLineStyle">RightLineStyle</see>, and <see cref="P:CrystalDecisions.CrystalReports.Engine.Border.TopLineStyle">TopLineStyle</see> properties of the <see cref="T:CrystalDecisions.CrystalReports.Engine.Border">Border</see> class and the <see cref="T:CrystalDecisions.CrystalReports.Engine.DrawingObject">DrawingObject</see> class, including all classes derived from <c>DrawingObject</c>.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.LineStyle.BlankLine">
+<summary>
+<para>Line is invisible.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.LineStyle.DashLine">
+<summary>
+<para>Line is dashed.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.LineStyle.DotLine">
+<summary>
+<para>Line is dotted.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.LineStyle.DoubleLine">
+<summary>
+<para>Line is doubled.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.LineStyle.NoLine">
+<summary>
+<para>No line type specified.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.LineStyle.SingleLine">
+<summary>
+<para>Line is single.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.LinkJoinType">
+<summary>
+<para>Specifies the link join type in the <see cref="P:CrystalDecisions.CrystalReports.Engine.TableLink.JoinType">JoinType</see> property of the <see cref="T:CrystalDecisions.CrystalReports.Engine.TableLinks">TableLinks</see> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.LinkJoinType.Equal">
+<summary>
+<para>Includes all the records where the linked field value in both tables is an exact match.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.LinkJoinType.GreaterOrEqual">
+<summary>
+<para>Includes all records in which the linked field value in the primary table is greater than or equal to the linked field value in the lookup table.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.LinkJoinType.GreaterThan">
+<summary>
+<para>Includes all records in which the linked field value in the primary table is greater than the linked field value in the lookup table.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.LinkJoinType.LeftOuter">
+<summary>
+<para>Includes all the records in which the linked field value in both tables is an exact match and every record in the primary for which there is no match.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.LinkJoinType.LessOrEqual">
+<summary>
+<para>Includes all records in which the linked field value in the primary table is less than or equal to the linked field value in the lookup table.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.LinkJoinType.LessThan">
+<summary>
+<para>Includes all records in which the linked field value in the primary table is less than the linked field value in the lookup table.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.LinkJoinType.NotEqual">
+<summary>
+<para>Includes all records in which the linked field value in the primary table is not equal to the linked field value in the lookup table.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.LinkJoinType.RightOuter">
+<summary>
+<para>Includes all the records in which the linked field value in both tables is an exact match and every record in the lookup table for which there is no match.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.MicrosoftMailDestinationOptions">
+<summary>
+<para>Provides properties for retrieving and setting options when exporting to Microsoft mail.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.MicrosoftMailDestinationOptions.MailCCList">
+<summary>
+<para>Gets or sets a carbon copy (CC) list for reports e-mailed.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.MicrosoftMailDestinationOptions.MailMessage">
+<summary>
+<para>Gets or sets the e-mail message included with e-mailed reports.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.MicrosoftMailDestinationOptions.MailSubject">
+<summary>
+<para>Gets or sets the e-mail subject heading for reports being e-mailed</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.MicrosoftMailDestinationOptions.MailToList">
+<summary>
+<para>Gets or sets the to list for reports being e-mailed.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.MicrosoftMailDestinationOptions.Password">
+<summary>
+<para>Gets or sets the Password to use when logging on to the email account.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.MicrosoftMailDestinationOptions.UserName">
+<summary>
+<para>Gets or sets the user name to use when logging on to the email account.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.MinuteFormat">
+<summary>
+<para>Specifies the minute format in the MinuteFormat property of the <see cref="T:CrystalDecisions.CrystalReports.Engine.DateFieldFormat">DateFieldFormat</see> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.MinuteFormat.NoMinute">
+<summary>
+<para>Minutes are not displayed.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.MinuteFormat.NumericMinute">
+<summary>
+<para>Single digit minutes are displayed with a leading zero.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.MinuteFormat.NumericMinuteNoLeadingZero">
+<summary>
+<para>Minutes are displayed in numerical format, with no leading zero.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.MonthFormat">
+<summary>
+<para>Specifies the month format in the MonthFormat property of the <c>DateFieldFormat</c> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.MonthFormat.LeadingZeroNumericMonth">
+<summary>
+<para>Month is printed as a number with a leading 0, for single digit months.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.MonthFormat.LongMonth">
+<summary>
+<para>Month is printed as text.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.MonthFormat.NoMonth">
+<summary>
+<para>Month is not printed.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.MonthFormat.NumericMonth">
+<summary>
+<para>Month is printed as a number with no leading 0.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.MonthFormat.ShortMonth">
+<summary>
+<para>Month is printed as text in abbreviated format.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.NegativeFormat">
+<summary>
+<para>Specifies the negative format in the NegativeFormat property of the <c>NumericFieldFormat</c> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.NegativeFormat.Bracketed">
+<summary>
+<para>Negative values in parentheses.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.NegativeFormat.LeadingMinus">
+<summary>
+<para>Minus sign appears to the left of the value.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.NegativeFormat.NotNegative">
+<summary>
+<para>Negative numbers print as a positive value.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.NegativeFormat.TrailingMinus">
+<summary>
+<para>Minus sign appears to the right of the value.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ObjectScope">
+<summary>
+<para>Specifies the object scope for the <c>ReportDocument</c> SetCSSClass method.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ObjectScope.AllReportObjects">
+<summary>
+<para>All report objects in a report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ObjectScope.AllReportObjectsInDetailSections">
+<summary>
+<para>All report objects in every detail section of a report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ObjectScope.AllReportObjectsInGroupFooterSections">
+<summary>
+<para>All report objects in every group footer section of a report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ObjectScope.AllReportObjectsInGroupHeaderSections">
+<summary>
+<para>All report objects in every group header section of a report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ObjectScope.AllReportObjectsInPageFooterSections">
+<summary>
+<para>All report objects in every page footer section of a report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ObjectScope.AllReportObjectsInPageHeaderSections">
+<summary>
+<para>All report objects in every page header section of a report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ObjectScope.AllReportObjectsInReportFooterSections">
+<summary>
+<para>All report objects in every report footer section of a report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ObjectScope.AllReportObjectsInReportHeaderSections">
+<summary>
+<para>All report objects in every report header section of a report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ObjectScope.AllSections">
+<summary>
+<para>All sections of a report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ObjectScope.AllSummaryObjects">
+<summary>
+<para>All summary objects in a report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ObjectScope.DetailSections">
+<summary>
+<para>All detail sections of a report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ObjectScope.GroupFooterSections">
+<summary>
+<para>All group footer sections of a report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ObjectScope.GroupHeaderSections">
+<summary>
+<para>All group header sections of a report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ObjectScope.PageFooterSections">
+<summary>
+<para>All page footer sections of a report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ObjectScope.PageHeaderSections">
+<summary>
+<para>All page header sections of a report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ObjectScope.ReportFooterSections">
+<summary>
+<para>All report footer sections of a report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ObjectScope.ReportHeaderSections">
+<summary>
+<para>All report header sections of a report.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.OpenReportMethod">
+<summary>
+<para>Specifies the open report method for the <c>ReportDocument</c> Load method.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.OpenReportMethod.OpenReportByDefault">
+<summary>
+<para>Specifies the report is to be opened exclusively.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.OpenReportMethod.OpenReportByTempCopy">
+<summary>
+<para>Specifies a temporary copy of the report is to be opened.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.PageMargins">
+<summary>
+<para>Stores the page margin settings of a report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PageMargins.bottomMargin">
+<summary>
+<para>Size of the bottom margin.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PageMargins.leftMargin">
+<summary>
+<para>Size of the left margin.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PageMargins.rightMargin">
+<summary>
+<para>Size of the right margin.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PageMargins.topMargin">
+<summary>
+<para>Size of the top margin.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.PaperOrientation">
+<summary>
+<para>Specifies the paper orientation in the <c>PaperOrientation</c> property of the <see cref="T:CrystalDecisions.CrystalReports.Engine.PrintOptions">PrintOptions</see> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperOrientation.DefaultPaperOrientation">
+<summary>
+<para>Orientation of report will be taken from printers default settings.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperOrientation.Landscape">
+<summary>
+<para>Orientation of report will be landscape.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperOrientation.Portrait">
+<summary>
+<para>Orientation of report will be portrait.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.PaperSize">
+<summary>
+<para>Specifies the paper size in the PaperSize property of the <c>PrintOptions</c> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.DefaultPaperSize">
+<summary>
+<para>Default size set in the printer driver.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.Paper10x14">
+<summary>
+<para>10- by 14-inch sheet.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.Paper11x17">
+<summary>
+<para>11- by 17-inch sheet.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperA3">
+<summary>
+<para>A3 sheet, 297- by 420-millimeters.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperA4">
+<summary>
+<para>A4 sheet, 210- by 297-millimeters.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperA4Small">
+<summary>
+<para>A4 small sheet, 210- by 297-millimeters.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperA5">
+<summary>
+<para>A5 sheet, 148- by 210-millimeters.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperB4">
+<summary>
+<para>B4 sheet, 250- by 354-millimeters.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperB5">
+<summary>
+<para>B5 sheet, 182- by 257-millimeter paper.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperCsheet">
+<summary>
+<para>C Sheet, 17- by 22-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperDsheet">
+<summary>
+<para>D Sheet, 22- by 34-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEnvelope10">
+<summary>
+<para>#10 Envelope, 4 1/8- by 9 1/2-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEnvelope11">
+<summary>
+<para>#11 Envelope, 4 1/2- by 10 3/8-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEnvelope12">
+<summary>
+<para>#12 Envelope, 4 3/4- by 11-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEnvelope14">
+<summary>
+<para>#14 Envelope, 5- by 11 1/2-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEnvelope9">
+<summary>
+<para>#9 Envelope, 3 7/8- by 8 7/8-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEnvelopeB4">
+<summary>
+<para>B4 Envelope, 250- by 353-millimeters.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEnvelopeB5">
+<summary>
+<para>B5 Envelope, 176- by 250-millimeters.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEnvelopeB6">
+<summary>
+<para>B6 Envelope, 176- by 125-millimeters.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEnvelopeC3">
+<summary>
+<para>C3 Envelope, 324- by 458-millimeters.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEnvelopeC4">
+<summary>
+<para>C4 Envelope, 229- by 324-millimeters.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEnvelopeC5">
+<summary>
+<para>C5 Envelope, 162- by 229-millimeters.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEnvelopeC6">
+<summary>
+<para>C6 Envelope, 114- by 162-millimeters.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEnvelopeC65">
+<summary>
+<para>C65 Envelope, 114- by 229-millimeters.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEnvelopeDL">
+<summary>
+<para>DL Envelope, 110- by 220-millimeters.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEnvelopeItaly">
+<summary>
+<para>Italy Envelope, 110- by 230-millimeters.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEnvelopeMonarch">
+<summary>
+<para>Monarch Envelope, 3 7/8- by 7 1/2-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEnvelopePersonal">
+<summary>
+<para>6 3/4 Envelope, 3 5/8- by 6 1/2-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperEsheet">
+<summary>
+<para>E Sheet, 34- by 44-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperExecutive">
+<summary>
+<para>Executive, 7 1/4- by 10 1/2-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperFanfoldLegalGerman">
+<summary>
+<para>German Legal Fanfold, 8 ½- by 13-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperFanfoldStdGerman">
+<summary>
+<para>German Std Fanfold, 8 1/2- by 12-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperFanfoldUS">
+<summary>
+<para>US Std Fanfold, 14 7/8- by 11-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperFolio">
+<summary>
+<para>Folio, 8 1/2- by 13-inch paper.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperLedger">
+<summary>
+<para>Ledger, 17- by 11-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperLegal">
+<summary>
+<para>Legal, 8 1/2- by 14-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperLetter">
+<summary>
+<para>Letter, 8 1/2- by 11-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperLetterSmall">
+<summary>
+<para>Letter Small, 8 1/2- by 11-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperNote">
+<summary>
+<para>Note, 8 1/2- by 11-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperQuarto">
+<summary>
+<para>Quarto, 215- by 275-millimeter paper.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperStatement">
+<summary>
+<para>Statement, 5 1/2- by 8 1/2-inches.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSize.PaperTabloid">
+<summary>
+<para>Tabloid, 11- by 17-inches.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.PaperSource">
+<summary>
+<para>Specifies the paper source in the PaperSource property of the <c>PrintOptions</c> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSource.Auto">
+<summary>
+<para>Prints from to the tray the printer auto-selects.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSource.Cassette">
+<summary>
+<para>Prints from the cassette tray.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSource.Envelope">
+<summary>
+<para>Prints from the envelope tray.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSource.EnvManual">
+<summary>
+<para>Prints from the manual envelop feed.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSource.FormSource">
+<summary>
+<para>Prints from the form source paper tray.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSource.LargeCapacity">
+<summary>
+<para>Prints from the large capacity paper tray.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSource.LargeFmt">
+<summary>
+<para>Prints from the large format paper tray.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSource.Lower">
+<summary>
+<para>Prints from lower paper tray.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSource.Manual">
+<summary>
+<para>Prints from the manual paper feed.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSource.Middle">
+<summary>
+<para>Prints from the middle paper tray.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSource.SmallFmt">
+<summary>
+<para>Prints from the small format paper tray.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSource.Tractor">
+<summary>
+<para>Prints from the tractor feed.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PaperSource.Upper">
+<summary>
+<para>Prints from the upper paper tray.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ParameterDiscreteValue">
+<summary>
+<para>Provides properties for retrieving and setting discrete value parameters.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterDiscreteValue.Description">
+<summary>
+<para>Gets or Sets a description of the discrete parameter value.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterDiscreteValue.Value">
+<summary>
+<para>Gets or sets the value of the parameter. This can be a string, number, currency, Boolean or date.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ParameterField">
+<summary>
+<para>Provides properties for retrieving and setting options and values for a parameter field.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.AllowCustomValues">
+<summary>
+<para>Gets or sets if the default values can be edited.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.CurrentValues">
+<summary>
+<para>Gets or sets the current values through the ParameterValues collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.DefaultValueDisplayType">
+<summary>
+<para>Gets or sets the default value display type of the <c>ParameterField</c>.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.DefaultValues">
+<summary>
+<para>Gets or sets the default values through the ParameterValues collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.DefaultValueSortMethod">
+<summary>
+<para>Gets the method in which the default values are sorted.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.DefaultValueSortOrder">
+<summary>
+<para>Gets the order in which the default values are sorted.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.DiscreteOrRangeKind">
+<summary>
+<para>Gets or sets whether or not the parameter field contains discrete values, range values, or both.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.EditMask">
+<summary>
+<para>Gets or sets an edit mask that restricts what may be entered for string parameters.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.EnableAllowEditingDefaultValue">
+<summary>
+<para>Gets or sets the option to allow editing of default values.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.EnableAllowMultipleValue">
+<summary>
+<para>Gets or sets the option to allow multiple values in the parameter.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.EnableNullValue">
+<summary>
+<para>Gets or sets the allow null value option for stored procedure parameters.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.HasCurrentValue">
+<summary>
+<para>Gets or sets if the parameter has a current value.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.MaximumValue">
+<summary>
+<para>Gets or sets the maximum value.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.MinimumValue">
+<summary>
+<para>Gets or sets the minimum value.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.Name">
+<summary>
+<para>Gets or sets the name of the parameter field.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.ParameterFieldName">
+<summary>
+<para>Gets or Sets the name of the Parameter Field.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.ParameterType">
+<summary>
+<para>Gets or Sets the type of the parameter value.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.ParameterValueKind">
+<summary>
+<para>Gets the type of the parameter value.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.ParameterValueType">
+<summary>
+<para>Gets or sets the type of the parameter.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.PromptingType">
+<summary>
+<para>Gets or sets whether or not the parameter field contains discrete values, range values, or both.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.PromptText">
+<summary>
+<para>Gets or sets the parameter field prompting string.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.ReportName">
+<summary>
+<para>Gets or sets the report name the parameter field is in. If it is a main report, the report name is empty.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterField.ReportParameterType">
+<summary>
+<para>Gets or sets the type of the parameter.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ParameterFields">
+<summary>
+<para>Contains the <c>ParameterField</c> objects for every parameter field in the report.</para>
+</summary>
+</member>
+<member name="M:CrystalDecisions.Shared.ParameterFields.Add(CrystalDecisions.Shared.ParameterField)">
+<summary>
+<para>Adds a <c>ParameterField</c> object to the collection.</para>
+</summary>
+<param name="parameterField"><para>The <c>ParameterField</c> object added to the <see cref="T:CrystalDecisions.Shared.ParameterFields">ParameterFields</see> collection.</para></param>
+<returns>
+<para>Indicates the location of the ParameterField in the collection.</para>
+</returns>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterFields.Count">
+<summary>
+<para>Gets the number of <c>ParameterField</c> objects in the collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterFields.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the <c>ParameterField</c> class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterFields.Item(System.String)">
+<summary>
+<para>Gets the object with the specified parameter name. In C#, this property is the indexer for the <c>ParameterField</c> class.</para>
+</summary>
+<param name="fieldName"></param>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterFields.Item(System.String,System.String)">
+<summary>
+<para>Gets the object with the specified parameter name and report name. In C#, this property is the indexer for the <c>ParameterField</c> class.</para>
+</summary>
+<param name="subreportName"></param>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.Shared.ParameterFieldUsage">
+<summary>
+<para>Specifies how a parameter field is used within the report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ParameterFieldUsage.CurrentValuesProvidedByServer">
+<summary>
+<para>The values for this parameter field are provided by the server.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ParameterFieldUsage.InUse">
+<summary>
+<para>This parameter field is used in the report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ParameterFieldUsage.NotInUse">
+<summary>
+<para>This parameter field is not used in the report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ParameterFieldUsage.Unknown">
+<summary>
+<para>This parameter field's report usage is unknown.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ParameterRangeValue">
+<summary>
+<para>Provides properties for retrieving and setting range value parameters.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterRangeValue.Description">
+<summary>
+<para>Gets or Sets a decription for the parameter range value.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterRangeValue.EndValue">
+<summary>
+<para>Gets or sets the end of the range value. This can be a string, number, currency, Boolean or date.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterRangeValue.LowerBoundType">
+<summary>
+<para>Gets or sets the lower bound type.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterRangeValue.StartValue">
+<summary>
+<para>Gets or sets the start of the range value. This can be a string, number, currency, Boolean or date.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterRangeValue.UpperBoundType">
+<summary>
+<para>Gets or sets the upper bound type.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ParameterType">
+<summary>
+<para>Specifies the parameter type in the <see cref="P:CrystalDecisions.Shared.ParameterField.ReportParameterType">ReportParameterType</see> property of the <c>ParameterField</c> class and the <c>ParameterType</c> property of the <c>ParameterFieldDefinition</c> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ParameterType.QueryParameter">
+<summary>
+<para>Parameter is from a Query.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ParameterType.ReportParameter">
+<summary>
+<para>Parameter is a Crystal report parameter.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ParameterType.StoreProcedureParameter">
+<summary>
+<para>Parameter is from a stored procedure.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ParameterValue">
+<summary>
+<para>Provides properties for retrieving and setting the type of the parameters.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterValue.Description">
+<summary>
+<para>Gets or Sets a description of the parameter value</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterValue.IsRange">
+<summary>
+<para>Gets or sets whether the value is a range.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterValue.Kind">
+<summary>
+<para>Gets whether the parameter value is discrete, ranged, or both.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ParameterValueKind">
+<summary>
+<para>Specifies the parameter value type in the <see cref="P:CrystalDecisions.Shared.ParameterField.ParameterValueType">ParameterValueType</see> property of the <c>ParameterField</c> class and <c>ParameterFieldDefinition</c> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ParameterValueKind.BooleanParameter">
+<summary>
+<para>Parameter takes a true or false value.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ParameterValueKind.CurrencyParameter">
+<summary>
+<para>Parameter takes a currency value.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ParameterValueKind.DateParameter">
+<summary>
+<para>Parameter takes a date value.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ParameterValueKind.DateTimeParameter">
+<summary>
+<para>Parameter takes a date-time value.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ParameterValueKind.NumberParameter">
+<summary>
+<para>Parameter takes a numerical value.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ParameterValueKind.StringParameter">
+<summary>
+<para>Parameter takes a string value.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ParameterValueKind.TimeParameter">
+<summary>
+<para>Parameter takes a time value.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ParameterValues">
+<summary>
+<para>Contains the <see cref="T:CrystalDecisions.Shared.ParameterValue">ParameterValue</see> objects for every parameter field in the report.</para>
+</summary>
+</member>
+<member name="M:CrystalDecisions.Shared.ParameterValues.Add(CrystalDecisions.Shared.ParameterValue)">
+<summary>
+<para>Adds a <c>ParameterValue</c> object to the Collection.</para>
+</summary>
+<param name="parameterValue"><para>This can be one of the following types: <c>ParameterValue</c>, <see cref="T:CrystalDecisions.Shared.ParameterRangeValue">ParameterRangeValue</see> or <see cref="T:CrystalDecisions.Shared.ParameterDiscreteValue">ParameterDiscreteValue</see>.</para></param>
+<returns>
+<para>Indicates the location of the ParameterValue in the collection.</para>
+</returns>
+</member>
+<member name="M:CrystalDecisions.Shared.ParameterValues.AddRange(System.Collections.ICollection)">
+<summary>
+<para>Adds a range of parameter values to the collection.</para>
+</summary>
+<param name="c"><para>The parameter values to be added to the collection.</para></param>
+</member>
+<member name="M:CrystalDecisions.Shared.ParameterValues.Insert(System.Int32,System.Object)">
+<summary>
+<para>Adds a value to the collection at the specified index.</para>
+</summary>
+<param name="index"><para>The index at which to add the parameter value.</para></param>
+<param name="parameterValue"><para>The parameter value to be added to the collection.</para></param>
+</member>
+<member name="M:CrystalDecisions.Shared.ParameterValues.InsertRange(System.Int32,System.Collections.ICollection)">
+<summary>
+<para>Adds a range of values to the collection at the specified index.</para>
+</summary>
+<param name="index"><para>The index at which to add the parameter values.</para></param>
+<param name="c"><para>The parameter values to be added to the collection.</para></param>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterValues.Count">
+<summary>
+<para>Gets the number of <c>ParameterValue</c> objects in the collection.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ParameterValues.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the ParameterValue class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.Shared.PdfRtfWordFormatOptions">
+<summary>
+<para>Provides properties for retrieving and setting options when exporting to PDF, RTF or Word.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.PdfRtfWordFormatOptions.FirstPageNumber">
+<summary>
+<para>Gets or sets the first page of the report to export.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.PdfRtfWordFormatOptions.LastPageNumber">
+<summary>
+<para>Gets or sets the last page of the report to export.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.PdfRtfWordFormatOptions.UsePageRange">
+<summary>
+<para>Gets or sets if the FirstPageNumber and LastPageNumber should be used.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.PrinterDuplex">
+<summary>
+<para>Specifies the duplex printer setting in the <c>PrinterDuplex</c> property of the <c>PrintOptions</c> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PrinterDuplex.Default">
+<summary>
+<para>The printer's default duplex setting.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PrinterDuplex.Horizontal">
+<summary>
+<para>Double-sided, horizontal printing.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PrinterDuplex.Simplex">
+<summary>
+<para>Single-sided printing.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.PrinterDuplex.Vertical">
+<summary>
+<para>Double-sided, vertical printing.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.RangeBoundType">
+<summary>
+<para>Specifies the boundary type for a ranged parameter in the <see cref="P:CrystalDecisions.Shared.ParameterRangeValue.LowerBoundType">LowerBoundType</see> and <see cref="P:CrystalDecisions.Shared.ParameterRangeValue.UpperBoundType">UpperBoundType</see> properties of the <c>ParameterRangeValue</c> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RangeBoundType.BoundExclusive">
+<summary>
+<para>The upper and lower range values are not included in the range.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RangeBoundType.BoundInclusive">
+<summary>
+<para>The upper and lower range values are included in the range.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RangeBoundType.NoBound">
+<summary>
+<para>No range bound selected.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.RemoteReportProxy">
+<summary>
+<para>Holds the reference to the proxy object for the remote report.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ReportFileFormat">
+<summary>
+<para>Specifies the report file format for the <c>ReportDocument</c><see cref="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(System.String)">SaveAs</see> method.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ReportFileFormat.VSNetFileFormat">
+<summary>
+<para>Visual Studio .NET report file format.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ReportObjectKind">
+<summary>
+<para>Specifies the type of report object in the kind property of the <see cref="T:CrystalDecisions.CrystalReports.Engine.ReportObject">ReportObject</see> class and all classes derived from ReportObject.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ReportObjectKind.BlobFieldObject">
+<summary>
+<para>Object is a blob field.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ReportObjectKind.BoxObject">
+<summary>
+<para>Object is a box.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ReportObjectKind.ChartObject">
+<summary>
+<para>Object is a chart.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ReportObjectKind.CrossTabObject">
+<summary>
+<para>Object is a cross tab.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ReportObjectKind.FieldHeadingObject">
+<summary>
+<para>Object is a field heading object.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ReportObjectKind.FieldObject">
+<summary>
+<para>Object is a field object.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ReportObjectKind.LineObject">
+<summary>
+<para>Object is a line.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ReportObjectKind.MapObject">
+<summary>
+<para>Object is a map.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ReportObjectKind.OlapGridObject">
+<summary>
+<para>Object is an OLAP grid.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ReportObjectKind.PictureObject">
+<summary>
+<para>Object is a picture.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ReportObjectKind.SubreportObject">
+<summary>
+<para>Object is a subreport.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.ReportObjectKind.TextObject">
+<summary>
+<para>Object is a text object.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ReportPartNavigationResult">
+<summary>
+<para>Provides properties for gathering information on the navigation target for the <see cref="E:CrystalDecisions.Web.CrystalReportViewerBase.ReportPartBookmarkNavigation">ReportPartBookmarkNavigation</see> Event.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ReportPartNavigationResult.DrillDownContext">
+<summary>
+<para>Gets the group node details of the navigation target.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ReportPartNavigationResult.PageNumber">
+<summary>
+<para>Gets the page number of the navigation target.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ReportPartNavigationResult.SectionNumber">
+<summary>
+<para>Gets the section number of the navigation target.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.RoundingFormat">
+<summary>
+<para>Specifies the rounding format for numbers in the <c>RoundingFormat</c> property of the <c>NumericFieldFormat</c> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RoundingFormat.RoundToBillionth">
+<summary>
+<para>Number rounded to 9 decimal places.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RoundingFormat.RoundToHundred">
+<summary>
+<para>Number rounded to hundreds digit.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RoundingFormat.RoundToHundredMillionth">
+<summary>
+<para>Number rounded to 8 decimal places.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RoundingFormat.RoundToHundredth">
+<summary>
+<para>Number rounded to 2 decimal places.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RoundingFormat.RoundToHundredThousand">
+<summary>
+<para>Number rounded to hundred thousands digit.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RoundingFormat.RoundToHundredThousandth">
+<summary>
+<para>Number rounded to 5 decimal places.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RoundingFormat.RoundToMillion">
+<summary>
+<para>Number rounded to millions digit.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RoundingFormat.RoundToMillionth">
+<summary>
+<para>Number rounded to 6 decimal places.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RoundingFormat.RoundToTen">
+<summary>
+<para>Number rounded to 6 decimal places.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RoundingFormat.RoundToTenBillionth">
+<summary>
+<para>Number rounded to 10 decimal places.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RoundingFormat.RoundToTenMillionth">
+<summary>
+<para>Number rounded to 7 decimal places.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RoundingFormat.RoundToTenth">
+<summary>
+<para>Number rounded to 1 decimal place.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RoundingFormat.RoundToTenThousand">
+<summary>
+<para>Number rounded to ten thousands digit.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RoundingFormat.RoundToTenThousandth">
+<summary>
+<para>Number rounded to 4 decimal places.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RoundingFormat.RoundToThousand">
+<summary>
+<para>Number rounded to thousands digit.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RoundingFormat.RoundToThousandth">
+<summary>
+<para>Number rounded to 3 decimal places.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.RoundingFormat.RoundToUnit">
+<summary>
+<para>Number rounded to ones digit.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.SearchDirection">
+<summary>
+<para>Specifies the search direction in the Direction property of the <see cref="T:CrystalDecisions.Web.SearchEventArgs">CrystalDecisions.Web.SearchEventArgs</see> class and the <see cref="T:CrystalDecisions.Windows.Forms.SearchEventArgs">CrystalDecisions.Windows.Forms.SearchEventArgs</see> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SearchDirection.Backward">
+<summary>
+<para>Search will be done backwards.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SearchDirection.Forward">
+<summary>
+<para>Search will be done backwards.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.SecondFormat">
+<summary>
+<para>Specifies the second format in the SecondFormat property of the <c>TimeFieldFormat</c> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SecondFormat.NumericNoSecond">
+<summary>
+<para>Second value will not be displayed.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SecondFormat.NumericSecond">
+<summary>
+<para>Second value will be printed with leading zeros for single digit values.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SecondFormat.NumericSecondNoLeadingZero">
+<summary>
+<para>Second value will be printed with no leading zeros.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ServerFileReport">
+<summary>
+<para>The <c>ServerFileReport</c> class is a managed component that acts as a proxy to the <c>ServerFileReportService</c> class while providing a limited object model to the developer.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ServerFileReport.ObjectType">
+<summary>
+<para>Gets the type of the Server File report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ServerFileReport.ReportPath">
+<summary>
+<para>Gets or sets the path and name of the report file.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ServerFileReport.WebServiceUrl">
+<summary>
+<para>Gets or sets the URL of the <c>ServerFileReportService</c> Web service.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.SortDirection">
+<summary>
+<para>Specifies the sort direction in the <c>SortDirection</c> property of the <see cref="T:CrystalDecisions.CrystalReports.Engine.SortField">SortField</see> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SortDirection.AscendingOrder">
+<summary>
+<para>Sort in ascending order.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SortDirection.BottomNOrder">
+<summary>
+<para>Sort on bottom N groups only.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SortDirection.DescendingOrder">
+<summary>
+<para>Sorting in descending order.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SortDirection.TopNOrder">
+<summary>
+<para>Sorting on top N groups only.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.SortFieldType">
+<summary>
+<para>Specifies the sort field type in the <c>SortType</c> property of the <c>SortField</c> class</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SortFieldType.GroupSortField">
+<summary>
+<para>Sort based on a group field.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SortFieldType.RecordSortField">
+<summary>
+<para>Sort based on a details field.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.SpecialVarType">
+<summary>
+<para>Specifies the special field type in the <c>SpecialVarType</c> property of the <see cref="T:CrystalDecisions.CrystalReports.Engine.SpecialVarFieldDefinition">SpecialVarFieldDefinition</see> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.DataDate">
+<summary>
+<para>Field returns the date that the report was last refreshed.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.DataTime">
+<summary>
+<para>Field returns the time that the report was last refreshed.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.FileAuthor">
+<summary>
+<para>Field returns the file author name that is included with the report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.FileCreationDate">
+<summary>
+<para>Field returns the date that the report was created.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.Filename">
+<summary>
+<para>Field returns the name of the report file.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.GroupNumber">
+<summary>
+<para>Field returns the current group number.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.GroupSelection">
+<summary>
+<para>Field returns the group selection formula.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.ModificationDate">
+<summary>
+<para>Field returns the date the report was last modified.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.ModificationTime">
+<summary>
+<para>Field returns the time the report was last modified.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.PageNofM">
+<summary>
+<para>Field returns "Page [current page number] of [total page count]" formula.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.PageNumber">
+<summary>
+<para>Field returns the current page number.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.PrintDate">
+<summary>
+<para>Field returns the date the report was printed.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.PrintTime">
+<summary>
+<para>Field returns the date the report was printed.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.RecordNumber">
+<summary>
+<para>Field returns the current record number.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.RecordSelection">
+<summary>
+<para>Field returns the record selection formula.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.ReportComments">
+<summary>
+<para>Field returns the report comments that are included with the report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.ReportTitle">
+<summary>
+<para>Field returns the report title that is included with the report.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SpecialVarType.TotalPageCount">
+<summary>
+<para>Field returns the total number of pages in the report.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.SummaryOperation">
+<summary>
+<para>Specifies the summary operation type in the <c>Operation</c> property of the <see cref="T:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition">RunningTotalFieldDefinition</see> class and <see cref="T:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinition">SummaryFieldDefinition</see> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.Average">
+<summary>
+<para>Summary returns the average of a field.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.Correlation">
+<summary>
+<para>Summary returns the correlation of two fields.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.Count">
+<summary>
+<para>Summary counts the number of values, from the field.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.Covariance">
+<summary>
+<para>Summary returns the measure of the linear relation between paired variables.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.DistinctCount">
+<summary>
+<para>Summary returns the number of non-repeating values, from the field.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.Maximum">
+<summary>
+<para>Summary returns the largest value from the field.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.Median">
+<summary>
+<para>Summary returns the middle value in a sequence of numeric values.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.Minimum">
+<summary>
+<para>Summary returns the smallest value from the field.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.Mode">
+<summary>
+<para>Summary returns the most frequently returning value from the field.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.NthLargest">
+<summary>
+<para>Summary returns the Nth largest value from the field.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.NthMostFrequent">
+<summary>
+<para>Summary returns the Nth most commonly occurring value from the field.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.NthSmallest">
+<summary>
+<para>Summary returns the Nth smallest value from the field.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.Percentage">
+<summary>
+<para>Summary returns as a percentage of the grand total summary.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.Percentile">
+<summary>
+<para>Summary returns the value for a specified percentile in a Number or Currency field.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.PopStandardDeviation">
+<summary>
+<para>Summary returns how much each value in the field deviate from the mean or average value for that field.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.PopVariance">
+<summary>
+<para>Summary returns the square of the standard deviation.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.SampleStandardDeviation">
+<summary>
+<para>Summary returns the sample standard deviation for the field.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.SampleVariance">
+<summary>
+<para>Summary returns the sample variance for the field.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.Sum">
+<summary>
+<para>Summary returns the total of all the values for the field.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.SummaryOperation.WeightedAvg">
+<summary>
+<para>Summary returns the weighted average for the field.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.TableLogOnInfo">
+<summary>
+<para>Provides properties for retrieving and setting table connectivity options.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.TableLogOnInfo.ConnectionInfo">
+<summary>
+<para>Gets or sets the ConnectionInfo object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.TableLogOnInfo.ReportName">
+<summary>
+<para>Gets or sets the report name.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.TableLogOnInfo.TableName">
+<summary>
+<para>Gets or sets the table name.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.TableLogOnInfos">
+<summary>
+<para>Contains the <see cref="T:CrystalDecisions.Shared.TableLogOnInfo">TableLogOnInfo</see> objects for every table in the report.</para>
+</summary>
+</member>
+<member name="M:CrystalDecisions.Shared.TableLogOnInfos.Add(System.Object)">
+<summary>
+<para>Adds a TableLogOnInfo object to the collection.</para>
+</summary>
+<param name="logOnInfo"><para>The <c>TableLogOnInfo</c> object added to the TableLogOnInfos collection.</para></param>
+<returns>
+<para>Indicates the location of the TableLogOnInfo in the collection.</para>
+</returns>
+</member>
+<member name="P:CrystalDecisions.Shared.TableLogOnInfos.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the TableLogonInfo class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="P:CrystalDecisions.Shared.TableLogOnInfos.Item(System.String)">
+<summary>
+<para>Gets the object with the specified name. In C#, this property is the indexer for the TableLogonInfo class.</para>
+</summary>
+<param name="fieldName"></param>
+</member>
+<member name="P:CrystalDecisions.Shared.TableLogOnInfos.Item(System.String,System.String)">
+<summary>
+<para>Gets the object with the specified table name and report name. In C#, this property is the indexer for the TableLogonInfo class.</para>
+</summary>
+<param name="reportName"></param>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.Shared.TimeBase">
+<summary>
+<para>Specifies a 12 hour or 24 hour time base in the <c>TimeBase</c> property of the <c>TimeFieldFormat</c> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.TimeBase.On12Hour">
+<summary>
+<para>Time is displayed in a 12-hour clock format, with the AM and PM symbols.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.TimeBase.On24Hour">
+<summary>
+<para>Time is displayed in a 24-hour clock format, with out AM and PM symbols.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.ToolbarStyle">
+<summary>
+<para>Provides properties for retrieving and setting style properties for the CrystalReportViewer toolbar.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ToolbarStyle.CssClass">
+<summary>
+<para>Gets or sets the cascading style sheet (CSS) class rendered by the Web server control on the client.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ToolbarStyle.Font">
+<summary>
+<para>Font. Gets or sets the font to be used in the toolbar.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ToolbarStyle.ForeColor">
+<summary>
+<para>Gets or sets the foreground color of the toolbar.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ToolbarStyle.Height">
+<summary>
+<para>Gets or sets the height of the toolbar.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.ToolbarStyle.Width">
+<summary>
+<para>Gets or sets the width of the toolbar.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.TotallerNodeID">
+<summary>
+<para>Provides group node information on the navigation target for the <c>ReportPartBookmarkNavigation</c> Event.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.TotallerNodeID.GroupLevel">
+<summary>
+<para>Gets the group level of the navigation target. The top-level group is 0.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.TotallerNodeID.GroupName">
+<summary>
+<para>Gets the group name of the navigation target. For example, "USA".</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.TotallerNodeID.GroupNamePath">
+<summary>
+<para>Gets the named group path to the navigation target. For example: "/Country[USA]/Region[CA]"</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.TotallerNodeID.GroupPath">
+<summary>
+<para>Gets an indexed, zero based, array representing the group path to the navigation target.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Shared.TotallerNodeIDs">
+<summary>
+<para>Contains the <see cref="T:CrystalDecisions.Shared.TotallerNodeID">TotallerNodeID</see> objects for every <c>TotallerNodeID</c> object in the report.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Shared.TotallerNodeIDs.Item(System.Int32)">
+<summary>
+<para>Gets the object at the specified index. In C#, this property is the indexer for the TotallerNodeID class.</para>
+</summary>
+<param name="index"></param>
+</member>
+<member name="T:CrystalDecisions.Shared.YearFormat">
+<summary>
+<para>Specifies the year format in the <c>YearFormat</c> property of the <c>DateFieldFormat</c> class.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.YearFormat.LongYear">
+<summary>
+<para>Year is printed in long format with four digits.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.YearFormat.NoYear">
+<summary>
+<para>Year is not displayed.</para>
+</summary>
+</member>
+<member name="F:CrystalDecisions.Shared.YearFormat.ShortYear">
+<summary>
+<para>Year is printed in short format with 2 digits.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Web.HtmlReportRender.AfterRenderContentEvent">
+<summary>
+<para>Provides data for the <see cref="E:CrystalDecisions.Web.CrystalReportViewerBase.AfterRenderContent">AfterRenderContent</see> event.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.AfterRenderContentEvent.AddAfterContent">
+<summary>
+<para>Gets or sets the string that will be appended to the end of the report content HTML.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Web.HtmlReportRender.AfterRenderContentEventHandler">
+<summary>
+<para>AfterRenderContentEventHandler is the delegate class for the AfterRenderContentEvent class.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Web.HtmlReportRender.AfterRenderEvent">
+<summary>
+<para>Provides data for the <see cref="E:CrystalDecisions.Web.CrystalReportViewerBase.AfterRender">AfterRender</see> event.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.AfterRenderEvent.AddAtEnd">
+<summary>
+<para>Gets or sets the string that will be appended to the end of the HTML.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Web.HtmlReportRender.AfterRenderEventHandler">
+<summary>
+<para>Represents the method that will handle the <c>AfterRender</c> event.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Web.HtmlReportRender.AfterRenderObjectEvent">
+<summary>
+<para>Provides data for the <see cref="E:CrystalDecisions.Web.CrystalReportViewerBase.AfterRenderObject">AfterRenderObject</see> event.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.AfterRenderObjectEvent.Object">
+<summary>
+<para>Gets or sets the cached report object.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.AfterRenderObjectEvent.ObjectRender">
+<summary>
+<para>Gets or sets the HTML renderer object, which generates the resulting HTML.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Web.HtmlReportRender.AfterRenderObjectEventHandler">
+<summary>
+<para>Represents the method that will handle the <c>AfterRenderObject</c> event.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Web.HtmlReportRender.BeforeRenderContentEvent">
+<summary>
+<para>Provides data for the <see cref="E:CrystalDecisions.Web.CrystalReportViewerBase.BeforeRenderContent">BeforeRenderContent</see> Class event.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderContentEvent.AddBeforeContent">
+<summary>
+<para>Gets or sets the string that will be written immediately following the <c>&amp;lt;BODY&amp;gt;</c> tag.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderContentEvent.NeedRenderBodyTag">
+<summary>
+<para>Gets or sets whether to render the <c>&amp;lt;BODY&amp;gt;</c> tag.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Web.HtmlReportRender.BeforeRenderContentEventHandler">
+<summary>
+<para>Represents the method that will handle the <c>BeforeRenderContent</c> event.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Web.HtmlReportRender.BeforeRenderEvent">
+<summary>
+<para>Provides data for the <see cref="E:CrystalDecisions.Web.CrystalReportViewerBase.BeforeRender">BeforeRender</see> event.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderEvent.AddAtBeginning">
+<summary>
+<para>Gets or sets the string that will be written after the <c>&amp;lt;HTML&amp;gt;</c> tag but before the <c>&amp;lt;BODY&amp;gt;</c> tag.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderEvent.NeedRenderHTMLTag">
+<summary>
+<para>Gets or sets whether to render the <c>&amp;lt;HTML&amp;gt;</c> tag.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Web.HtmlReportRender.BeforeRenderEventHandler">
+<summary>
+<para>Represents the method that will handle the <c>BeforeRender</c> event.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent">
+<summary>
+<para>Provides data for the <see cref="E:CrystalDecisions.Web.CrystalReportViewerBase.BeforeRenderObject">BeforeRenderObject</see> event.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.Object">
+<summary>
+<para>Gets or sets the cached report object. This can be a <see cref="F:CrystalDecisions.Shared.ReportObjectKind.FieldObject">FieldObject</see>, <see cref="F:CrystalDecisions.Shared.ReportObjectKind.TextObject">TextObject</see>, <c>GraphObject</c>, and so on.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnBlurHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when the contents of an object are made to appear out of focus. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnClickHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when an object is clicked. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnContextMenuHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when the context menu is displayed. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnDBClickHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when an object is double-clicked. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnDragEndHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed at the end of a drag operation. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnDragEnterHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when an object is dragged into the controls bounds. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnDragHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed during a drag operation. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnDragLeaveHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when an object is dragged out of the controls bounds. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnDragOverHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when a control is being dragged over a target object. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnDragStartHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed at the start of a drag operation. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnDropHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when the drag and drop operation is complete. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnFocusHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when the object receives focus. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnFocusInHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed just prior to the object receiving focus. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnFocusOutHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed immediately after the object loses focus. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnKeyDownHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when an alphanumeric key is pressed. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnKeyPressHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when a key is pressed. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnKeyUpHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when a key is released. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnMouseDownHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when an object is clicked with either mouse button. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnMouseEnterHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when the mouse pointer is moved into the boundaries of an object. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnMouseLeaveHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when the mouse pointer is moved outside of the boundaries of an object. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnMouseMoveHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when the mouse pointer is moved over an object. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnMouseOutHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when the mouse pointer is moved outside of the boundaries of an object. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnMouseOverHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when the mouse pointer is moved into an object. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnMouseUpHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when either mouse button is released over an object. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnSelectHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when the current selection changes. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnSelectionChangeHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when the selection state of the document changes. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnSelectStartHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when the object is being selected. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEvent.OnStopHandler">
+<summary>
+<para>Gets or sets the JavaScript code that is executed when the user clicks the stop button or leaves the web page. The code is cached on the client in the HTML page.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Web.HtmlReportRender.BeforeRenderObjectEventHandler">
+<summary>
+<para>Represents the method that will handle the <c>BeforeRenderObject</c> event.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Web.HtmlReportRender.OnRenderScriptEvent">
+<summary>
+<para>Provides data for the <see cref="E:CrystalDecisions.Web.CrystalReportViewerBase.OnRenderScript">OnRenderScript</see> event.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.OnRenderScriptEvent.Handled">
+<summary>
+<para>Gets or sets whether the event was handled.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.OnRenderScriptEvent.Script">
+<summary>
+<para>Gets or sets the Script Block.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Web.HtmlReportRender.OnRenderScriptEventHandler">
+<summary>
+<para>Represents the method that will handle the <c>OnRenderScript</c> event.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Web.HtmlReportRender.OnRenderStyleEvent">
+<summary>
+<para>Provides data for the <see cref="E:CrystalDecisions.Web.CrystalReportViewerBase.OnRenderStyle">OnRenderStyle</see> event.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.OnRenderStyleEvent.Handled">
+<summary>
+<para>Gets or sets whether the event was handled.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.Web.HtmlReportRender.OnRenderStyleEvent.Style">
+<summary>
+<para>Provides data for the <c>OnRenderStyle</c> event.</para>
+</summary>
+</member>
+<member name="T:CrystalDecisions.Web.HtmlReportRender.OnRenderStyleEventHandler">
+<summary>
+<para>Represents the method that will handle the <c>OnRenderStyle</c> event.</para>
+</summary>
+</member>
+</members>
+</doc>

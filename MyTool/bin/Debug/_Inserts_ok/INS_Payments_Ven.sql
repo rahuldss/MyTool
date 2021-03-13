@@ -1,0 +1,3 @@
+Set Identity_insert Payments_Ven On
+INSERT INTO [Payments_Ven] ([ID],[REFENMBR],[CALLDATE],[VENDNAME],[VENDNMBR],[LocID],[INVAMT],[PAYDT],[CHKNO],[CHKDT],[AMTRECD],[DETAILS],[PAYMODE])VALUES(26,1425,'Dec 16 2009 12:00:00:000AM','Aimee Stevens',33,1425,79.0000,'Dec 16 2009 12:00:00:000AM','12345','Dec 16 2009 12:00:00:000AM',79.0000,'','CHECK')
+Set Identity_insert Payments_Ven Off

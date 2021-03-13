@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly>
+<name>CrystalDecisions.ReportSource</name>
+</assembly>
+<members>
+<member name="T:CrystalDecisions.ReportSource.ICachedReport">
+<summary>
+<para>This interface identifies an implementing class as cacheable into the ASP.NET Cache object using the Crystal Reports SDK.</para>
+</summary>
+</member>
+<member name="M:CrystalDecisions.ReportSource.ICachedReport.CreateReport">
+<summary>
+<para>Returns an instance of the embedded report being cached by this class.</para>
+</summary>
+<returns>
+<para>Returns a <see cref="T:CrystalDecisions.CrystalReports.Engine.ReportDocument">ReportDocument</see>.</para>
+</returns>
+</member>
+<member name="M:CrystalDecisions.ReportSource.ICachedReport.GetCustomizedCacheKey(CrystalDecisions.Shared.RequestContext)">
+<summary>
+<para>Allows the developer to return a string to append to the cache key.</para>
+</summary>
+<param name="request"><para>Set this value to <c>null</c> if calling this method in your code.</para></param>
+<returns>
+<para>Returns the string to append to the cache key.</para>
+</returns>
+</member>
+<member name="P:CrystalDecisions.ReportSource.ICachedReport.CacheTimeOut">
+<summary>
+<para>Gets or sets the cache timeout.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.ReportSource.ICachedReport.IsCacheable">
+<summary>
+<para>Gets or sets whether the report is cacheable.</para>
+</summary>
+</member>
+<member name="P:CrystalDecisions.ReportSource.ICachedReport.ShareDBLogonInfo">
+<summary>
+<para>Gets or sets whether report instances will differentiate between different database logons. If the database has row-level security, set this property to false.</para>
+</summary>
+</member>
+</members>
+</doc>
